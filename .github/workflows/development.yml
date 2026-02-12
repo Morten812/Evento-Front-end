@@ -1,0 +1,66 @@
+# This is a basic workflow to help you get started with Actions
+
+name: Development
+
+# Controls when the workflow will run
+on:
+  # Triggers the workflow on push or pull request events but only for the "main" branch
+  pull_request:
+    types:
+      - opened
+      - edited
+      - synchronize
+      - reopened
+  workflow_call: 
+
+
+  # Allows you to run this workflow manually from the Actions tab
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  test:
+    # The type of runner that the job will run on
+    name: Test Application
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - name: "checkout repository"
+        uses: actions/checkout@v2
+
+      - name: "install npm@latest"
+        run: npm i -g npm@latest
+
+      # Runs a single command using the runners shell
+      - name: "install dependencies"
+        run: bahmutov/npm-install@v1
+
+      # Runs a set of commands using the runners shell
+      - name: "run tests"
+        run: npm run test --if-present
+
+  lint:
+    name: Code standards
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: "checkout repository"
+        uses: actions/checkout@v2
+
+      - name: "setup node"
+        uses: actions/setup-node@v2.1.5
+        with:
+          node-version: 16
+
+      - name: "install npm@latest"
+        run: npm i -g npm@latest
+
+      - name: "install dependencies"
+        uses: bahmutov/npm-install@v1
+
+      - name: "lint code"
+        run: npm run lint --if-present 
+      
+          

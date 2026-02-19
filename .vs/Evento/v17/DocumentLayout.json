@@ -1,7 +1,36 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\morte\\GitHub\\Evento\\Evento\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\morte\\GitHub\\Evento\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2B24881F-20B1-492F-B531-EA1CDF7D10D7}|Evento\\Evento.csproj|c:\\users\\morte\\github\\evento\\evento\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2B24881F-20B1-492F-B531-EA1CDF7D10D7}|Evento\\Evento.csproj|solutionrelative:evento\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B24881F-20B1-492F-B531-EA1CDF7D10D7}|Evento\\Evento.csproj|c:\\users\\morte\\github\\evento\\evento\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B24881F-20B1-492F-B531-EA1CDF7D10D7}|Evento\\Evento.csproj|solutionrelative:evento\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B24881F-20B1-492F-B531-EA1CDF7D10D7}|Evento\\Evento.csproj|c:\\users\\morte\\github\\evento\\evento\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B24881F-20B1-492F-B531-EA1CDF7D10D7}|Evento\\Evento.csproj|solutionrelative:evento\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B24881F-20B1-492F-B531-EA1CDF7D10D7}|Evento\\Evento.csproj|c:\\users\\morte\\github\\evento\\evento\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2B24881F-20B1-492F-B531-EA1CDF7D10D7}|Evento\\Evento.csproj|solutionrelative:evento\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B24881F-20B1-492F-B531-EA1CDF7D10D7}|Evento\\Evento.csproj|c:\\users\\morte\\github\\evento\\evento\\evento.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{2B24881F-20B1-492F-B531-EA1CDF7D10D7}|Evento\\Evento.csproj|solutionrelative:evento\\evento.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B24881F-20B1-492F-B531-EA1CDF7D10D7}|Evento\\Evento.csproj|c:\\users\\morte\\github\\evento\\evento\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B24881F-20B1-492F-B531-EA1CDF7D10D7}|Evento\\Evento.csproj|solutionrelative:evento\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B24881F-20B1-492F-B531-EA1CDF7D10D7}|Evento\\Evento.csproj|c:\\users\\morte\\github\\evento\\evento\\evento.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{2B24881F-20B1-492F-B531-EA1CDF7D10D7}|Evento\\Evento.csproj|solutionrelative:evento\\evento.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +38,99 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\morte\\GitHub\\Evento\\Evento\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Evento\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\morte\\GitHub\\Evento\\Evento\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Evento\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-19T19:44:55.197Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\morte\\GitHub\\Evento\\Evento\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "Evento\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\morte\\GitHub\\Evento\\Evento\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "Evento\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T19:44:52.874Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Evento.csproj",
+              "DocumentMoniker": "C:\\Users\\morte\\GitHub\\Evento\\Evento\\Evento.csproj",
+              "RelativeDocumentMoniker": "Evento\\Evento.csproj",
+              "ToolTip": "C:\\Users\\morte\\GitHub\\Evento\\Evento\\Evento.csproj",
+              "RelativeToolTip": "Evento\\Evento.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-02-17T14:08:43.655Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\morte\\GitHub\\Evento\\Evento\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "Evento\\WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\morte\\GitHub\\Evento\\Evento\\WeatherForecast.cs",
+              "RelativeToolTip": "Evento\\WeatherForecast.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-17T14:08:36.176Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Evento.http",
+              "DocumentMoniker": "C:\\Users\\morte\\GitHub\\Evento\\Evento\\Evento.http",
+              "RelativeDocumentMoniker": "Evento\\Evento.http",
+              "ToolTip": "C:\\Users\\morte\\GitHub\\Evento\\Evento\\Evento.http",
+              "RelativeToolTip": "Evento\\Evento.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2026-02-17T14:08:34.355Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\morte\\GitHub\\Evento\\Evento\\Program.cs",
+              "RelativeDocumentMoniker": "Evento\\Program.cs",
+              "ToolTip": "C:\\Users\\morte\\GitHub\\Evento\\Evento\\Program.cs",
+              "RelativeToolTip": "Evento\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-17T14:08:03.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\morte\\GitHub\\Evento\\Evento\\appsettings.json",
+              "RelativeDocumentMoniker": "Evento\\appsettings.json",
+              "ToolTip": "C:\\Users\\morte\\GitHub\\Evento\\Evento\\appsettings.json",
+              "RelativeToolTip": "Evento\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-17T14:03:06.754Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",

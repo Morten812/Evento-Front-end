@@ -31,9 +31,6 @@ jobs:
      - name: Restore
        run: dotnet restore
 
-     - name: Build
-       run: dotnet build Evento.sln --configuration Release --no-restore
-
      - name: Test
        run: dotnet test --no-build 
 
@@ -41,6 +38,9 @@ jobs:
        uses: github/codeql-action/init@v4
        with:
          languages: csharp
+
+     - name: Autobuild
+       uses: github/codeql-action/autobuild@v4
 
      - name: Perform CodeQL Analysis
        uses: github/codeql-action/analyze@v4

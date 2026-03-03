@@ -1,6 +1,8 @@
 using System.Diagnostics;
 using Evento_Front_end.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Authorization;
+
 
 namespace Evento_Front_end.Controllers
 {
@@ -18,6 +20,24 @@ namespace Evento_Front_end.Controllers
             return View();
         }
 
+        public IActionResult Companies()
+        {
+            return View();
+        }
+
+        [Authorize]
+        public IActionResult Tools()
+        {
+            return View();
+        }
+
+        [Authorize]
+        public IActionResult Tasks()
+        {
+            return View();
+        }
+
+        [Authorize]
         public IActionResult Privacy()
         {
             return View();

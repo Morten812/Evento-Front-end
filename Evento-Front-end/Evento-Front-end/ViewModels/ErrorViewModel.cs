@@ -1,4 +1,4 @@
-namespace Evento_Front_end.Models
+namespace Evento_Front_end.ViewModels
 {
     public class ErrorViewModel
     {

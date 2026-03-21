@@ -2,6 +2,7 @@ using System.Diagnostics;
 using Evento_Front_end.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Authorization;
+using Evento_Front_end.ViewModels;
 
 
 namespace Evento_Front_end.Controllers

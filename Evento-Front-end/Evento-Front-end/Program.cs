@@ -31,6 +31,11 @@ namespace Evento_Front_end
                 .AddEntityFrameworkStores<AppDbContext>()
                 .AddDefaultTokenProviders();
 
+            builder.Services.AddHttpClient("ApiClient", client =>
+            {
+                client.BaseAddress = new Uri("https://localhost:7251/");
+            });
+
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.

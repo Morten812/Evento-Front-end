@@ -1,16 +1,18 @@
-﻿using Microsoft.AspNetCore.Identity;
+﻿/*
+
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Evento_Front_end.ViewModels;
 using Evento_Front_end.Models;
 
 namespace Evento_Front_end.Controllers
 {
-    public class FrontendAccountController : Controller
+    public class FrontendAccountController_Backup : Controller
     {
         private readonly SignInManager<Users> signInManager;
         private readonly UserManager<Users> userManager;
 
-        public FrontendAccountController(SignInManager<Users> signInManager, UserManager<Users> userManager)
+        public FrontendAccountController_Backup(SignInManager<Users> signInManager, UserManager<Users> userManager)
         {
             this.signInManager = signInManager;
             this.userManager = userManager;
@@ -49,3 +51,4 @@ namespace Evento_Front_end.Controllers
         }
     }
 }
+*/

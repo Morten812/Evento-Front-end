@@ -31,10 +31,14 @@ namespace Evento_Front_end
                 .AddEntityFrameworkStores<AppDbContext>()
                 .AddDefaultTokenProviders();
 
+            /*
             builder.Services.AddHttpClient("ApiClient", client =>
             {
                 client.BaseAddress = new Uri("https://localhost:7251/");
             });
+            */
+
+            builder.Services.AddHttpClient();
 
             var app = builder.Build();
 

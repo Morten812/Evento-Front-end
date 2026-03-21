@@ -2,6 +2,8 @@ using System.Diagnostics;
 using Evento_Front_end.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Authorization;
+using System.Net.Http;
+using System.Threading.Tasks;
 using Evento_Front_end.ViewModels;
 
 
@@ -9,15 +11,22 @@ namespace Evento_Front_end.Controllers
 {
     public class HomeController : Controller
     {
+        private readonly HttpClient _httpClient;
+
         private readonly ILogger<HomeController> _logger;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(ILogger<HomeController> logger, IHttpClientFactory factory)
         {
             _logger = logger;
+
+            _httpClient = factory.CreateClient();
         }
 
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
+            var result = await _httpClient.GetStringAsync("https://localhost:7251/api/hello");
+            ViewBag.Message = result;
+            
             return View();
         }
 

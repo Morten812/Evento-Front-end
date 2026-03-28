@@ -30,9 +30,18 @@ namespace Evento_Front_end.Controllers
             return View();
         }
 
-        public IActionResult Companies()
+        public async Task<IActionResult> Companies()
         {
-            return View();
+
+            var companies = await _httpClient
+                .GetFromJsonAsync<List<CompanyDTO>>("https://localhost:7251/api/companies");
+
+            var vm = new CompanyViewModel
+            {
+                Companies = companies
+            };
+
+            return View(vm);
         }
 
         [Authorize]

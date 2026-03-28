@@ -1,7 +1,23 @@
-﻿@{
+﻿@model Evento_Front_end.ViewModels.Company.ShowAllCompaniesVM
+@{
     ViewData["Title"] = "Home Page";
 }
 
 <div class="text-center">
     <h1 class="display-4">List of companies:</h1>
 </div>
+
+
+@if (Model?.Companies != null)
+{
+<ul>
+@foreach (var company in Model.Companies)
+    {
+        <li>@company.Name</li>
+    }
+    </ul>
+}
+else
+{
+    <p>No companies found</p>
+}

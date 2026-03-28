@@ -5,6 +5,8 @@ using Microsoft.AspNetCore.Authorization;
 using System.Net.Http;
 using System.Threading.Tasks;
 using Evento_Front_end.ViewModels;
+using Evento_Front_end.DTOs;
+using Evento_Front_end.ViewModels.Company;
 
 
 namespace Evento_Front_end.Controllers
@@ -34,9 +36,10 @@ namespace Evento_Front_end.Controllers
         {
 
             var companies = await _httpClient
-                .GetFromJsonAsync<List<CompanyDTO>>("https://localhost:7251/api/companies");
+                .GetFromJsonAsync<List<CompanyDTO>>("https://localhost:7251/api/companies")
+                ?? new List<CompanyDTO>();
 
-            var vm = new CompanyViewModel
+            var vm = new ShowAllCompaniesVM
             {
                 Companies = companies
             };

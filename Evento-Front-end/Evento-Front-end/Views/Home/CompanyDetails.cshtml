@@ -1,24 +1,27 @@
-﻿@model Evento_Front_end.ViewModels.Company.ShowAllCompaniesVM
+﻿@model Evento_Front_end.ViewModels.Company.ShowCompanyDetailsVM
 @{
     ViewData["Title"] = "Home Page";
 }
 
 <div class="text-center">
-    <h1 class="display-4">List of companies:</h1>
+    <h1 class="display-4">Company Details:</h1>
 </div>
 
 
-@if (Model?.Companies != null)
+@if (Model?.Services != null)
 {
     <ul>
-        @foreach (var company in Model.Companies)
+        @foreach (var service in Model.Services)
         {
-            <li>@company.Name</li>
-            <li>@company.Description</li>
+            <li>
+                <strong>@service.Name</strong><br />
+                @service.Description<br/>
+                Price: @service.Price
+            </li>
         }
     </ul>
 }
 else
 {
-    <p>No companies found</p>
+    <p>No services found</p>
 }

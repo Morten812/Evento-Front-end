@@ -70,5 +70,20 @@ namespace Evento_Front_end.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
+
+        public async Task<IActionResult> CompanyDetails(int companyId)
+        {
+            var services = await _httpClient
+                .GetFromJsonAsync<List<ServiceDTO>>(
+                    $"https://localhost:7251/api/companies/{companyId}/services"
+                    ) ?? new List<ServiceDTO>();
+
+            var vm = new ShowCompanyDetailsVM
+            {
+                Services = services
+            };
+
+            return View(vm);
+        }
     }
 }

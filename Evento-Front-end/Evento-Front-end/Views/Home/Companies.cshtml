@@ -16,6 +16,13 @@
         <li>@company.Name</li>
         <li>@company.Description</li>
         <li>@company.Email</li>
+        <h1>
+            <a asp-action="CompanyDetails" asp-route-companyId="@company.CompanyID">
+                    @company.Name
+            </a>
+        </h1>
+        <h1></h1>
+            <h1></h1>
     }
     </ul>
 }

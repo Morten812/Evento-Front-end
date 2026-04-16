@@ -10,13 +10,12 @@
 
 @if (Model?.Companies != null)
 {
-<ul>
-@foreach (var company in Model.Companies)
-    {
-        <li>@company.Name</li>
-        <li>@company.Description</li>
-        <li>@company.Email</li>
-    }
+    <ul>
+        @foreach (var company in Model.Companies)
+        {
+            <li>@company.Name</li>
+            <li>@company.Description</li>
+        }
     </ul>
 }
 else

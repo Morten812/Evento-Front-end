@@ -7,19 +7,78 @@
     <h1 class="display-4">List of companies:</h1>
 </div>
 
+<div class="search-container">
+    <form method="get" asp-action="companies">
+        <input type="text" name="searchTerm" />
+        <button type="submit">Search</button>
+    </form>
+</div>
+
+<form method="get" asp-action="companies">
+
+    <div class="top-bar">
+    <div class="dropdown">
+        <input type="checkbox" id="dropdown-toggle" hidden>
+
+            <label for="dropdown-toggle" class="dropdown-label">
+                Select Filters
+            </label>
+
+            <div class="dropdown-list">
+
+            <h4>Municipalities</h4>
+            <label>
+                <input type="checkbox" name="municipalities" value="Aalborg"
+                    @(Model.SelectedMunicipalities.Contains("Aalborg") ? "checked" : "")/>
+                Aalborg
+            </label>
+
+            <hr />
+
+            <h4>Services</h4>
+            <label>
+                <input type="checkbox" name="services" value="Security"
+                    @(Model.SelectedServices.Contains("Security") ? "checked" : "") />
+                Security
+            </label>
+
+            <label>
+                <input type="checkbox" name="services" value="Cleaning"
+                    @(Model.SelectedServices.Contains("Cleaning") ? "checked" : "") />
+                Cleaning
+            </label>
+
+            <label>
+                <input type="checkbox" name="services" value="Transportation"
+                    @(Model.SelectedServices.Contains("Transportation") ? "checked" : "") />
+                Transportation
+            </label>
+
+                <button type="submit">Apply</button>
+        </div>
+    </div>
+    </div>
+</form>
+
+
 
 @if (Model?.Companies != null)
 {
 <ul>
 @foreach (var company in Model.Companies)
     {
+        <img src="@company.LogoUrl" class="company-logo" />
         <li>@company.Name</li>
         <li>@company.Description</li>
-        <li>@company.Email</li>
+        <li>@company.Municipality</li>
         <h1>
-            <a asp-action="CompanyDetails" asp-route-companyId="@company.CompanyID">
-                    @company.Name
+            
+            <a class="company-link" 
+            asp-action="CompanyDetails" 
+            asp-route-companyId="@company.CompanyID">
+             @company.Name
             </a>
+
         </h1>
         <h1></h1>
             <h1></h1>

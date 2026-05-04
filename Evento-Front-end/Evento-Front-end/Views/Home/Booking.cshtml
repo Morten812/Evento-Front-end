@@ -1,0 +1,42 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Booking</h1>
+</div>
+
+
+<form asp-controller="Request" asp-action="CreateRequest" method="post">
+    <div>
+        <label>Select service:</label><br/>
+        <select name="SelectedServiceId">
+            @if (Model?.Services != null)
+            {
+                foreach (var service in Model.Services)
+                {
+                    <option value="@service.ServiceID">
+                        @service.Name - @service.Price
+                    </option>
+                }
+            }
+            else
+            {
+                <option disabled>No services found</option>
+            }
+        </select>
+    </div>
+
+    <div style="margin-top:10px;">
+        <label>Description:</label><br/>
+        <textarea name="Description" rows="4" cols="50"></textarea>
+    </div>
+
+    <div style="margin-top:10px;">
+        <button type="submit" class="button">
+            Book Service
+        </button>
+    </div>
+
+</form>
+

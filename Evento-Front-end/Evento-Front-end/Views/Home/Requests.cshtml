@@ -1,0 +1,34 @@
+﻿@model List<Evento_Front_end.DTOs.RequestDTO>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Requests</h1>
+</div>
+
+@if (Model != null)
+{
+    <ul>
+        @foreach (var req in Model)
+        {
+            <li>
+                Service: @req.ServiceID <br/>
+                Description: @req.Description
+
+                <form asp-controller="Request" asp-action="RemoveRequest" method="post">
+                    <input type="hidden" name="requestId" value="@req.RequestID" />
+                    <input type="hidden" name="description" value="@req.Description" />
+
+                    <button type="submit">Accept</button>
+                    <button type="submit">Decline</button>
+                </form>
+            </li>
+        }
+    </ul>
+}
+else
+{
+    <p>No requests yet</p>
+}
+

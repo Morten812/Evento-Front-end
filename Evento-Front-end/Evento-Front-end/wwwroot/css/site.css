@@ -20,3 +20,62 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+.search-container {
+    display: flex;
+    justify-content: flex-end; /* right */
+    align-items: flex-end;     /* top */
+    margin: 0;
+    padding: 0;
+}
+
+.company-link {
+    font-size: 16px;
+}
+
+.company-logo {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-label {
+    background: #eee;
+    padding: 8px 12px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+}
+
+.dropdown-list {
+    display: none;
+    position: absolute;
+    background: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 5px;
+    z-index: 1000;
+}
+
+#dropdown-toggle:checked + .dropdown-label + .dropdown-list {
+    display: block;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+a.button {
+    padding: 1px 6px;
+    border: 1px outset buttonborder;
+    border-radius: 3px;
+    color: ButtonText;
+    background-color: ButtonFace;
+    text-decoration: none;
+}

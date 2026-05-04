@@ -1,11 +1,9 @@
 ﻿using Evento_Front_end.DTOs;
-using Evento_Front_end.Models;
 
 namespace Evento_Front_end.ViewModels.Company
 {
-    public class ShowCompanyDetailsVM
+    public class BookingVM
     {
-        public CompanyDTO Company { get; set; }
         public IList<ServiceDTO> Services { get; set; } = new List<ServiceDTO>();
     }
 }

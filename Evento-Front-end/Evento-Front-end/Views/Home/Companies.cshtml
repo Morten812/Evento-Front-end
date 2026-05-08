@@ -61,16 +61,16 @@
 </form>
 
 
-
 @if (Model?.Companies != null)
 {
-<ul>
+<ul class="company-list">
 @foreach (var company in Model.Companies)
     {
+        <li class="company-card">
         <img src="@company.LogoUrl" class="company-logo" />
-        <li>@company.Name</li>
-        <li>@company.Description</li>
-        <li>@company.Municipality</li>
+        <p>@company.Name</p>
+        <p>@company.Description</p>
+        <p>@company.Municipality</p>
         <h1>
             
             <a class="company-link" 
@@ -80,8 +80,7 @@
             </a>
 
         </h1>
-        <h1></h1>
-            <h1></h1>
+        </li>
     }
     </ul>
 }
@@ -89,3 +88,4 @@ else
 {
     <p>No companies found</p>
 }
+</div>

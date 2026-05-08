@@ -7,5 +7,12 @@
         public int CompanyID { get; set; }
         public int CustomerID { get; set; }
         public string Description { get; set; }
+        public RequestStatus Status { get; set; }
+    }
+    public enum RequestStatus
+    {
+        Pending,
+        Accepted,
+        Declined
     }
 }

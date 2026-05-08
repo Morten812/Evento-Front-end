@@ -16,29 +16,36 @@ namespace Evento_Front_end.Controllers
 
         private readonly HttpClient _httpClient;
 
-        [HttpPost]
-        public async Task<IActionResult> CreateRequest(int selectedServiceId, string description)
+        public RequestController(HttpClient httpClient)
         {
-            var requestDto = new RequestDTO
+            _httpClient = httpClient;
+        }
+
+
+        [HttpPost]
+        public async Task<IActionResult> CreateRequest(int selectedServiceId, string description, int companyId)
+        {
+            var dto = new
             {
                 ServiceID = selectedServiceId,
                 Description = description
             };
 
-            await _httpClient.PostAsJsonAsync(
-                "https://localhost:7251/api/requests",
-                requestDto);
+            await _httpClient.PostAsJsonAsync($"Https://localhost:7251/api/requests", dto);
 
-            return RedirectToAction("Requests", "Home");
+            return RedirectToAction("CompanyDetails", "Home", new {companyId});
         }
 
         [HttpPost]
-        public async Task<IActionResult> RemoveRequest(int requestId, string description)
+        public async Task<IActionResult> UpdateRequestStatus(int requestId, RequestStatus status, int serviceId)
         {
-            await _httpClient.DeleteAsync(
-                $"https://localhost:7251/api/requests/{requestId}");
+            await _httpClient.PutAsJsonAsync($"https://localhost:7251/api/requests/{requestId}/status",
+                new RequestDTO
+                {
+                    Status = status
+                });
 
-            return RedirectToAction("Requests", "Home");
+            return RedirectToAction("Requests", "Home", new {serviceId});
         }
     }
 }

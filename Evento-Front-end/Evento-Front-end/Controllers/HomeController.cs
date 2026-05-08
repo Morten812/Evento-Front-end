@@ -84,13 +84,15 @@ namespace Evento_Front_end.Controllers
             return View();
         }
 
-        public async Task<IActionResult> Booking(int companyId)
+        public async Task<IActionResult> Booking(int companyId, int customerId)
         {
             var services = await _httpClient
                 .GetFromJsonAsync<List<ServiceDTO>>($"https://localhost:7251/api/companies/{companyId}/services");
 
             var vm = new BookingVM
             {
+                CustomerID = customerId,
+                CompanyID = companyId,
                 Services = services ?? new List<ServiceDTO>()
             };
 
@@ -124,11 +126,12 @@ namespace Evento_Front_end.Controllers
             return View(vm);
         }
 
+
         public async Task<IActionResult> Requests(int serviceId)
         {
             var requests = await _httpClient
                 .GetFromJsonAsync<List<RequestDTO>>(
-                $"https://localhost:7251/api/requests/{serviceId}"
+                "https://localhost:7251/api/requests"
                 ) ?? new List<RequestDTO>();
 
             var vm = new RequestsVM

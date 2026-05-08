@@ -1,29 +1,28 @@
-﻿@model List<Evento_Front_end.DTOs.RequestDTO>
+﻿@model Evento_Front_end.ViewModels.Company.RequestsVM
 @{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Requests";
 }
 
 <div class="text-center">
     <h1 class="display-4">Requests</h1>
 </div>
 
-@if (Model != null)
+@if (Model?.Requests != null)
 {
     <ul>
-        @foreach (var req in Model)
+        @foreach (var req in Model.Requests)
         {
+            <form asp-controller="Request" asp-action="UpdateRequestStatus" method="post">
             <li>
                 Service: @req.ServiceID <br/>
                 Description: @req.Description
-
-                <form asp-controller="Request" asp-action="RemoveRequest" method="post">
-                    <input type="hidden" name="requestId" value="@req.RequestID" />
-                    <input type="hidden" name="description" value="@req.Description" />
-
-                    <button type="submit">Accept</button>
-                    <button type="submit">Decline</button>
-                </form>
+                <input type="hidden" name="requestId" value="@req.RequestID" />
+                <input type="hidden" name="serviceId" value="@req.ServiceID" />
+                    <button type="submit" name="status" value="Accepted">Accept</button>
+                    <button type="submit" name="status" value="Declined">Decline</button>
+                
             </li>
+            </form>
         }
     </ul>
 }

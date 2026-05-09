@@ -1,4 +1,6 @@
-﻿namespace Evento_Front_end.Models
+﻿using Evento_Front_end.DTOs;
+
+namespace Evento_Front_end.Models
 {
     public class Request
     {
@@ -7,5 +9,13 @@
         public int CompanyID { get; set; }
         public int CustomerID { get; set; }
         public string Description { get; set; }
+        public RequestStatus Status { get; set; }
+    }
+
+    public enum RequestStatus
+    {
+        Pending,
+        Accepted,
+        Declined
     }
 }

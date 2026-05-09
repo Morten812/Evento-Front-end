@@ -27,7 +27,7 @@ namespace Evento_Front_end.Controllers
 
         public async Task<IActionResult> Index()
         {
-            var result = await _httpClient.GetStringAsync("https://localhost:7251/api/hello");
+            var result = await _httpClient.GetStringAsync("https://localhost:7251/api/index");
             ViewBag.Message = result;
             
             return View();

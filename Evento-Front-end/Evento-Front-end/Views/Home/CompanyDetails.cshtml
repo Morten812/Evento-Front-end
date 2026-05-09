@@ -13,7 +13,7 @@
     <ul>
         @foreach (var service in Model.Services)
         {
-            <li>
+            <li class="company-card">
                 <strong>@service.Name</strong><br />
                 @service.Description<br/>
                 Price: @service.Price
@@ -28,5 +28,5 @@ else
 
 <a asp-controller="Home" asp-action="Booking" asp-route-companyId="@Model.Company.CompanyID"
     class="button">
-    Book Service
+    Booking
 </a>

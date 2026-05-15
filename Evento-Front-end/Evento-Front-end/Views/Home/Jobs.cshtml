@@ -1,0 +1,28 @@
+﻿@model Evento_Front_end.ViewModels.Company.RequestsVM
+
+@{
+    ViewData["Title"] = "Jobs";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Accepted jobs</h1>
+</div>
+
+@if (Model.RequestRows.Any())
+{
+    <ul class="company-list">
+        @foreach (var job in Model.RequestRows)
+        {
+            <li class="company-card">
+                <strong>Customer:</strong> @job.CustomerName <br />
+                <strong>Service:</strong> @job.ServiceName <br />
+                <strong>Description:</strong> @job.Description <br />
+                <strong>Status:</strong> @job.Status
+            </li>
+        }
+    </ul>
+}
+else
+{
+    <p>No approved jobs</p>
+}

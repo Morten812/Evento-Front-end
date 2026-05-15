@@ -9,18 +9,21 @@
 
 @if (Model?.Requests != null)
 {
-    <ul>
-        @foreach (var req in Model.Requests)
+    <ul class="company-list">
+        @foreach (var req in Model.RequestRows)
         {
+
             <form asp-controller="Request" asp-action="UpdateRequestStatus" method="post">
-            <li>
-                Service: @req.ServiceID <br/>
-                Description: @req.Description
-                Status: @req.Status
+            <li class="company-card">
+                <strong>Customer:</strong> @req.CustomerName <br/>
+               <strong>Service:</strong> @req.ServiceName <br/>
+                <strong>Description:</strong> @req.Description <br />
+                <strong>Status:</strong> 
+                @req.Status
                 <input type="hidden" name="requestId" value="@req.RequestID" />
                 <input type="hidden" name="serviceId" value="@req.ServiceID" />
-                    <button type="submit" name="status" value="Accepted">Accept</button>
-                    <button type="submit" name="status" value="Declined">Decline</button>
+                    <button type="submit" name="status" value="Approved">Accept</button>
+                    <button type="submit" name="status" value="Rejected">Decline</button>
                 
             </li>
             </form>

@@ -10,12 +10,15 @@ namespace Evento_Front_end.Models
         public int CustomerID { get; set; }
         public string Description { get; set; }
         public RequestStatus Status { get; set; }
+        public Service Service { get; set; }
+        public Customer Customer { get; set; }
     }
 
     public enum RequestStatus
     {
         Pending,
-        Accepted,
-        Declined
+        Approved,
+        Cancelled,
+        Rejected
     }
 }

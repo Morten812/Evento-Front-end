@@ -7,5 +7,6 @@ namespace Evento_Front_end.ViewModels.Company
     {
         public RequestDTO Request { get; set; }
         public IList<RequestDTO> Requests{ get; set; } = new List<RequestDTO>();
+        public List<RequestRowVM> RequestRows { get; set; } = new();
     }
 }

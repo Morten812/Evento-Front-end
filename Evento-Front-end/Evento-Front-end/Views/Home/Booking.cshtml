@@ -1,6 +1,6 @@
 ﻿@model Evento_Front_end.ViewModels.Company.BookingVM
 @{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Booking";
 }
 
 <div class="text-center">
@@ -32,6 +32,20 @@
     </div>
 
     <div style="margin-top:10px;">
+        <select name="CustomerID">
+            @if (Model?.Customers != null)
+            {
+                foreach (var customer in Model.Customers)
+                {
+                    <option value="@customer.CustomerID">
+                        @customer.FirstName  @customer.LastName
+                    </option>
+                }
+            }
+        </select>
+    </div>
+
+    <div style="margin-top:10px;">
         <label>Description:</label><br/>
         <textarea name="Description" rows="4" cols="50"></textarea>
     </div>
@@ -44,4 +58,5 @@
     </div>
 
 </form>
+
 

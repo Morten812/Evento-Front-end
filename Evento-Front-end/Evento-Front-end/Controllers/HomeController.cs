@@ -27,7 +27,7 @@ namespace Evento_Front_end.Controllers
 
         public async Task<IActionResult> Index()
         {
-            var result = await _httpClient.GetStringAsync("https://localhost:7251/api/index");
+            var result = await _httpClient.GetStringAsync("https://localhost:7251/api/hello");
             ViewBag.Message = result;
             
             return View();
@@ -89,11 +89,15 @@ namespace Evento_Front_end.Controllers
             var services = await _httpClient
                 .GetFromJsonAsync<List<ServiceDTO>>($"https://localhost:7251/api/companies/{companyId}/services");
 
+            var customers = await _httpClient
+                .GetFromJsonAsync<List<CustomerDTO>>("https://localhost:7251/api/customers") ?? new();
+
             var vm = new BookingVM
             {
                 CustomerID = customerId,
                 CompanyID = companyId,
-                Services = services ?? new List<ServiceDTO>()
+                Services = services ?? new List<ServiceDTO>(),
+                Customers = customers ?? new List<CustomerDTO>()
             };
 
             return View(vm);
@@ -127,16 +131,45 @@ namespace Evento_Front_end.Controllers
         }
 
 
-        public async Task<IActionResult> Requests(int serviceId)
+        public async Task<IActionResult> Requests(int companyId)
         {
             var requests = await _httpClient
                 .GetFromJsonAsync<List<RequestDTO>>(
                 "https://localhost:7251/api/requests"
-                ) ?? new List<RequestDTO>();
+                ) ?? new();
 
             var vm = new RequestsVM
             {
-                Requests = requests
+                RequestRows = requests.Select(r => new RequestRowVM
+                {
+                    RequestID = r.RequestID,
+                    Description = r.Description,
+                    Status = r.Status.ToString(),
+                    ServiceName = r.ServiceName,
+                    CustomerName = r.CustomerName
+                }).ToList()
+            };
+
+            return View(vm);
+        }
+
+        public async Task<IActionResult> Jobs()
+        {
+            var jobs = await _httpClient
+                .GetFromJsonAsync<List<RequestDTO>>(
+                "https://localhost:7251/api/requests/jobs"
+                ) ?? new();
+
+            var vm = new RequestsVM
+            {
+                RequestRows = jobs.Select(r => new RequestRowVM
+                {
+                    RequestID = r.RequestID,
+                    Description = r.Description,
+                    Status = r.Status.ToString(),
+                    ServiceName = r.ServiceName,
+                    CustomerName = r.CustomerName
+                }).ToList()
             };
 
             return View(vm);

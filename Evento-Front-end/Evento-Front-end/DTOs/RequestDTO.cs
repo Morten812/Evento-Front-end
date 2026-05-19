@@ -1,4 +1,5 @@
 ﻿using Evento_Front_end.Models;
+using System.ComponentModel;
 
 namespace Evento_Front_end.DTOs
 {
@@ -12,6 +13,8 @@ namespace Evento_Front_end.DTOs
         public RequestStatus Status { get; set; }
         public string ServiceName { get; set; }
         public string CustomerName { get; set; }
+        public DateTime CreatedAt { get; set; }
+        public DateTime? RespondedAt { get; set; } 
     }
     public enum RequestStatus
     {

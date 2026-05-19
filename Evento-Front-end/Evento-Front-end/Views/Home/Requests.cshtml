@@ -3,6 +3,25 @@
     ViewData["Title"] = "Requests";
 }
 
+<form asp-controller="Home" asp-action="Requests" method="get">
+
+    <label>Select company</label>
+
+    <select name="companyId">
+        @foreach (var company in Model.Companies)
+        {
+            <option value="@company.CompanyID">
+                @company.Name
+            </option>
+        }
+    </select>
+
+    <button type="submit">
+        Show Requests
+    </button>
+
+</form>
+
 <div class="text-center">
     <h1 class="display-4">Requests</h1>
 </div>
@@ -18,8 +37,7 @@
                 <strong>Customer:</strong> @req.CustomerName <br/>
                <strong>Service:</strong> @req.ServiceName <br/>
                 <strong>Description:</strong> @req.Description <br />
-                <strong>Status:</strong> 
-                @req.Status
+                <strong>Created:</strong> @req.CreatedAt.ToString("dd/MM/yyyy HH:mm") <br />
                 <input type="hidden" name="requestId" value="@req.RequestID" />
                 <input type="hidden" name="serviceId" value="@req.ServiceID" />
                     <button type="submit" name="status" value="Approved">Accept</button>

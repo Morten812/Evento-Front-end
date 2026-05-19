@@ -13,12 +13,16 @@
     <ul class="company-list">
         @foreach (var job in Model.RequestRows)
         {
+            <form asp-controller="Request" asp-action="CancelJob" method="post">
             <li class="company-card">
                 <strong>Customer:</strong> @job.CustomerName <br />
                 <strong>Service:</strong> @job.ServiceName <br />
                 <strong>Description:</strong> @job.Description <br />
-                <strong>Status:</strong> @job.Status
+                <strong>Accepted at:</strong> @job.RespondedAt?.ToString("dd/MM/yyyy HH:mm") <br />
+                <input type="hidden" name="requestId" value="@job.RequestID" />
+                    <button type="submit">Cancel</button>
             </li>
+            </form>
         }
     </ul>
 }

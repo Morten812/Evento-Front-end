@@ -10,5 +10,7 @@ namespace Evento_Front_end.ViewModels.Company
         public string Status { get; set; }
         public string ServiceName { get; set; }
         public string CustomerName { get; set; }
+        public DateTime CreatedAt { get; set; }
+        public DateTime? RespondedAt { get; set; }
     }
 }

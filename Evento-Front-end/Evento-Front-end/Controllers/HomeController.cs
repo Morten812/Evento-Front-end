@@ -135,18 +135,27 @@ namespace Evento_Front_end.Controllers
         {
             var requests = await _httpClient
                 .GetFromJsonAsync<List<RequestDTO>>(
-                "https://localhost:7251/api/requests"
+                $"https://localhost:7251/api/requests/company/{companyId}/"
+                ) ?? new();
+
+            var companies = await _httpClient
+                .GetFromJsonAsync<List<CompanyDTO>>(
+                "https://localhost:7251/api/companies"
                 ) ?? new();
 
             var vm = new RequestsVM
             {
+                Companies = companies,
+
                 RequestRows = requests.Select(r => new RequestRowVM
                 {
                     RequestID = r.RequestID,
                     Description = r.Description,
                     Status = r.Status.ToString(),
                     ServiceName = r.ServiceName,
-                    CustomerName = r.CustomerName
+                    CustomerName = r.CustomerName,
+
+                    CreatedAt = r.CreatedAt.ToLocalTime(),
                 }).ToList()
             };
 
@@ -168,11 +177,19 @@ namespace Evento_Front_end.Controllers
                     Description = r.Description,
                     Status = r.Status.ToString(),
                     ServiceName = r.ServiceName,
-                    CustomerName = r.CustomerName
+                    CustomerName = r.CustomerName,
+
+                    RespondedAt = r.RespondedAt?.ToLocalTime()
                 }).ToList()
             };
 
             return View(vm);
+        }
+
+        public async Task<IActionResult> RequestHistory()
+        {
+          
+            return View();
         }
     }
 }

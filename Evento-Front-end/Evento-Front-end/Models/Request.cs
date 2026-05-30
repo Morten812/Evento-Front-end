@@ -19,6 +19,7 @@ namespace Evento_Front_end.Models
         Pending,
         Approved,
         Cancelled,
-        Rejected
+        Rejected,
+        Completed
     }
 }

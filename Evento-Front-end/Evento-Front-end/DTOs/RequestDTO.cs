@@ -15,12 +15,14 @@ namespace Evento_Front_end.DTOs
         public string CustomerName { get; set; }
         public DateTime CreatedAt { get; set; }
         public DateTime? RespondedAt { get; set; } 
+        public DateTime? RequestedEnd { get; set; }
     }
     public enum RequestStatus
     {
         Pending,
         Approved,
         Cancelled,
-        Rejected
+        Rejected,
+        Completed
     }
 }

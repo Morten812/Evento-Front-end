@@ -1,7 +1,51 @@
-﻿@{
+﻿@model Evento_Front_end.ViewModels.Company.RequestsVM
+@{
     ViewData["Title"] = "Request History";
 }
 
+<form asp-controller="Home" asp-action="RequestHistory" method="get">
+
+    <label>Select company</label>
+
+    <select name="companyId">
+        @foreach (var company in Model.Companies)
+        {
+            <option value="@company.CompanyID">
+                @company.Name
+            </option>
+        }
+    </select>
+
+    <button type="submit">
+        Show Requests
+    </button>
+
+</form>
+
 <div class="text-center">
-    <h1 class="display-4">List of total requests:</h1>
+    <h1 class="display-4">Requests</h1>
 </div>
+
+@if (Model?.Requests != null)
+{
+    <ul class="company-list">
+        @foreach (var req in Model.RequestRows)
+        {
+
+            <li class="company-card">
+                <strong>Customer:</strong> @req.CustomerName <br />
+                <strong>Service:</strong> @req.ServiceName <br />
+                <strong>Description:</strong> @req.Description <br />
+                <strong>Created:</strong> @req.CreatedAt.ToString("dd/MM/yyyy HH:mm") <br />
+                <strong>Ended:</strong> @(req.RequestedEnd?.ToString("dd/MM/yyyy HH:mm") ?? "Not ended") <br />
+                <input type="hidden" name="requestId" value="@req.RequestID" />
+                <input type="hidden" name="serviceId" value="@req.ServiceID" />
+            </li>
+        }
+    </ul>
+}
+else
+{
+    <p>No requests yet</p>
+}
+

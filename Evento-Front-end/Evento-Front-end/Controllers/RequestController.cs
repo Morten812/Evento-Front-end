@@ -66,5 +66,18 @@ namespace Evento_Front_end.Controllers
 
             return RedirectToAction("Jobs", "Home");
         }
+
+        [HttpPost]
+        public async Task<IActionResult> FinishJob(int requestId)
+        {
+            var response = await _httpClient.PutAsJsonAsync(
+               $"https://localhost:7251/api/requests/{requestId}/status",
+               new RequestDTO
+               {
+                   Status = RequestStatus.Completed
+               });
+
+            return RedirectToAction("Jobs", "Home");
+        }
     }
 }

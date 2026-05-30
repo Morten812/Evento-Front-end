@@ -1,13 +1,14 @@
-using System.Diagnostics;
+using Evento_Front_end.Controllers;
+using Evento_Front_end.DTOs;
 using Evento_Front_end.Models;
-using Microsoft.AspNetCore.Mvc;
+using Evento_Front_end.ViewModels;
+using Evento_Front_end.ViewModels.Company;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
+using System.ComponentModel.Design;
+using System.Diagnostics;
 using System.Net.Http;
 using System.Threading.Tasks;
-using Evento_Front_end.ViewModels;
-using Evento_Front_end.DTOs;
-using Evento_Front_end.ViewModels.Company;
-using Evento_Front_end.Controllers;
 
 
 namespace Evento_Front_end.Controllers
@@ -135,7 +136,7 @@ namespace Evento_Front_end.Controllers
         {
             var requests = await _httpClient
                 .GetFromJsonAsync<List<RequestDTO>>(
-                $"https://localhost:7251/api/requests/company/{companyId}/"
+                $"https://localhost:7251/api/requests/company/{companyId}/pending"
                 ) ?? new();
 
             var companies = await _httpClient
@@ -186,10 +187,36 @@ namespace Evento_Front_end.Controllers
             return View(vm);
         }
 
-        public async Task<IActionResult> RequestHistory()
+        public async Task<IActionResult> RequestHistory(int companyId)
         {
-          
-            return View();
+            var requests = await _httpClient
+               .GetFromJsonAsync<List<RequestDTO>>(
+               $"https://localhost:7251/api/requests/company/{companyId}/history"
+               ) ?? new();
+
+            var companies = await _httpClient
+                .GetFromJsonAsync<List<CompanyDTO>>(
+                "https://localhost:7251/api/companies"
+                ) ?? new();
+
+            var vm = new RequestsVM
+            {
+                Companies = companies,
+
+                RequestRows = requests.Select(r => new RequestRowVM
+                {
+                    RequestID = r.RequestID,
+                    Description = r.Description,
+                    Status = r.Status.ToString(),
+                    ServiceName = r.ServiceName,
+                    CustomerName = r.CustomerName,
+
+                    CreatedAt = r.CreatedAt.ToLocalTime(),
+                    RequestedEnd = r.RequestedEnd?.ToLocalTime(),
+                }).ToList()
+            };
+
+            return View(vm);
         }
     }
 }

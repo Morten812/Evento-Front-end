@@ -4,7 +4,7 @@
 }
 
 <div class="text-center">
-    <h1 class="display-4">List of task solvers:</h1>
+    <h1 class="company-text">Task Solvers:</h1>
 </div>
 
 <div class="search-container">
@@ -26,14 +26,30 @@
 
             <div class="dropdown-list">
 
-            <h4>Municipalities</h4>
-            <label>
-                <input type="checkbox" name="municipalities" value="Aalborg"
-                    @(Model.SelectedMunicipalities.Contains("Aalborg") ? "checked" : "")/>
-                Aalborg
-            </label>
+            @foreach (var region in Model.Companies
+                                        .Select(c => c.Region)
+                                        .Distinct())
+            {
+                <h4>@region</h4>
 
-            <hr />
+                @foreach (var municipality in Model.Companies
+                                                    .Where(c => c.Region == region)
+                                                    .Select(c => c.Municipality)
+                                                    .Distinct())
+                {
+                        <label>
+                            <input type="checkbox"
+                                name="municipalities"
+                                value="@municipality" />
+                            @municipality
+                        </label>
+
+                        <br />
+                }
+
+                <hr />
+
+                }
 
             <h4>Services</h4>
             <label>

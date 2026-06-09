@@ -91,6 +91,14 @@ a.button {
     margin-bottom: 15px;
 }
 
-.homepage-font {
+.homepage-text {
     color: #6b6b6b 
+}
+
+.memberpage-text {
+    color: darkred
+}
+
+.company-text{
+    color: darkcyan
 }

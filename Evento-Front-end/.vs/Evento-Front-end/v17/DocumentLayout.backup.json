@@ -3,36 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|c:\\users\\morte\\github\\evento\\evento-front-end\\evento-front-end\\views\\home\\jobs.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|solutionrelative:evento-front-end\\views\\home\\jobs.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|c:\\users\\morte\\github\\evento\\evento-front-end\\evento-front-end\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|solutionrelative:evento-front-end\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|c:\\users\\morte\\github\\evento\\evento-front-end\\evento-front-end\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|solutionrelative:evento-front-end\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|c:\\users\\morte\\github\\evento\\evento-front-end\\evento-front-end\\wwwroot\\css\\account.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|solutionrelative:evento-front-end\\wwwroot\\css\\account.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|c:\\users\\morte\\github\\evento\\evento-front-end\\evento-front-end\\views\\home\\booking.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|solutionrelative:evento-front-end\\views\\home\\booking.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|c:\\users\\morte\\github\\evento\\evento-front-end\\evento-front-end\\views\\home\\requests.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|solutionrelative:evento-front-end\\views\\home\\requests.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|c:\\users\\morte\\github\\evento\\evento-front-end\\evento-front-end\\views\\home\\requesthistory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|solutionrelative:evento-front-end\\views\\home\\requesthistory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|c:\\users\\morte\\github\\evento\\evento-front-end\\evento-front-end\\views\\home\\tasks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|solutionrelative:evento-front-end\\views\\home\\tasks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|c:\\users\\morte\\github\\evento\\evento-front-end\\evento-front-end\\controllers\\requestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|solutionrelative:evento-front-end\\controllers\\requestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|c:\\users\\morte\\github\\evento\\evento-front-end\\evento-front-end\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|solutionrelative:evento-front-end\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|c:\\users\\morte\\github\\evento\\evento-front-end\\evento-front-end\\models\\request.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|solutionrelative:evento-front-end\\models\\request.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|c:\\users\\morte\\github\\evento\\evento-front-end\\evento-front-end\\dtos\\requestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|solutionrelative:evento-front-end\\dtos\\requestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|c:\\users\\morte\\github\\evento\\evento-front-end\\evento-front-end\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|solutionrelative:evento-front-end\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|c:\\users\\morte\\github\\evento\\evento-front-end\\evento-front-end\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -43,8 +35,112 @@
       "RelativeMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|solutionrelative:evento-front-end\\views\\home\\companydetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|c:\\users\\morte\\github\\evento\\evento-front-end\\evento-front-end\\views\\home\\companies.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|solutionrelative:evento-front-end\\views\\home\\companies.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|c:\\users\\morte\\github\\evento\\evento-front-end\\evento-front-end\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|solutionrelative:evento-front-end\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|c:\\users\\morte\\github\\evento\\evento-front-end\\evento-front-end\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|solutionrelative:evento-front-end\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|c:\\users\\morte\\github\\evento\\evento-front-end\\evento-front-end\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|solutionrelative:evento-front-end\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|c:\\users\\morte\\github\\evento\\evento-front-end\\evento-front-end\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|solutionrelative:evento-front-end\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|c:\\users\\morte\\github\\evento\\evento-front-end\\evento-front-end\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|solutionrelative:evento-front-end\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|c:\\users\\morte\\github\\evento\\evento-front-end\\evento-front-end\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|solutionrelative:evento-front-end\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|c:\\users\\morte\\github\\evento\\evento-front-end\\evento-front-end\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|solutionrelative:evento-front-end\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|c:\\users\\morte\\github\\evento\\evento-front-end\\evento-front-end\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|solutionrelative:evento-front-end\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|c:\\users\\morte\\github\\evento\\evento-front-end\\evento-front-end\\dtos\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|solutionrelative:evento-front-end\\dtos\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|c:\\users\\morte\\github\\evento\\evento-front-end\\evento-front-end\\controllers\\requestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|solutionrelative:evento-front-end\\controllers\\requestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|c:\\users\\morte\\github\\evento\\evento-front-end\\evento-front-end\\viewmodels\\company\\showallcompaniesvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|solutionrelative:evento-front-end\\viewmodels\\company\\showallcompaniesvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|c:\\users\\morte\\github\\evento\\evento-front-end\\evento-front-end\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|solutionrelative:evento-front-end\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|c:\\users\\morte\\github\\evento\\evento-front-end\\evento-front-end\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|solutionrelative:evento-front-end\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|c:\\users\\morte\\github\\evento\\evento-front-end\\evento-front-end\\dtos\\companydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|solutionrelative:evento-front-end\\dtos\\companydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|c:\\users\\morte\\github\\evento\\evento-front-end\\evento-front-end\\models\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|solutionrelative:evento-front-end\\models\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|c:\\users\\morte\\github\\evento\\evento-front-end\\evento-front-end\\views\\home\\members.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|solutionrelative:evento-front-end\\views\\home\\members.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|c:\\users\\morte\\github\\evento\\evento-front-end\\evento-front-end\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|solutionrelative:evento-front-end\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|c:\\users\\morte\\github\\evento\\evento-front-end\\evento-front-end\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|solutionrelative:evento-front-end\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|c:\\users\\morte\\github\\evento\\evento-front-end\\evento-front-end\\viewmodels\\changepasswordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|solutionrelative:evento-front-end\\viewmodels\\changepasswordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|c:\\users\\morte\\github\\evento\\evento-front-end\\evento-front-end\\viewmodels\\verifyemailviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|solutionrelative:evento-front-end\\viewmodels\\verifyemailviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|c:\\users\\morte\\github\\evento\\evento-front-end\\evento-front-end\\viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|solutionrelative:evento-front-end\\viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|c:\\users\\morte\\github\\evento\\evento-front-end\\evento-front-end\\models\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|solutionrelative:evento-front-end\\models\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|c:\\users\\morte\\github\\evento\\evento-front-end\\evento-front-end\\views\\home\\jobs.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|solutionrelative:evento-front-end\\views\\home\\jobs.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|c:\\users\\morte\\github\\evento\\evento-front-end\\evento-front-end\\views\\home\\requesthistory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|solutionrelative:evento-front-end\\views\\home\\requesthistory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|c:\\users\\morte\\github\\evento\\evento-front-end\\evento-front-end\\models\\request.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|solutionrelative:evento-front-end\\models\\request.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|c:\\users\\morte\\github\\evento\\evento-front-end\\evento-front-end\\dtos\\requestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|solutionrelative:evento-front-end\\dtos\\requestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|c:\\users\\morte\\github\\evento\\evento-front-end\\evento-front-end\\viewmodels\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -53,10 +149,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|c:\\users\\morte\\github\\evento\\evento-front-end\\evento-front-end\\viewmodels\\company\\showcompanydetailsvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|solutionrelative:evento-front-end\\viewmodels\\company\\showcompanydetailsvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|c:\\users\\morte\\github\\evento\\evento-front-end\\evento-front-end\\viewmodels\\company\\showallcompaniesvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|solutionrelative:evento-front-end\\viewmodels\\company\\showallcompaniesvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|c:\\users\\morte\\github\\evento\\evento-front-end\\evento-front-end\\viewmodels\\company\\requestsvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -69,14 +161,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|c:\\users\\morte\\github\\evento\\evento-front-end\\evento-front-end\\viewmodels\\company\\jobsvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|solutionrelative:evento-front-end\\viewmodels\\company\\jobsvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|c:\\users\\morte\\github\\evento\\evento-front-end\\evento-front-end\\views\\home\\companies.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|solutionrelative:evento-front-end\\views\\home\\companies.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|c:\\users\\morte\\github\\evento\\evento-front-end\\evento-front-end\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|solutionrelative:evento-front-end\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|c:\\users\\morte\\github\\evento\\evento-front-end\\evento-front-end\\views\\shared\\_accountlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -95,44 +179,12 @@
       "RelativeMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|solutionrelative:evento-front-end\\views\\shared\\_registerpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|c:\\users\\morte\\github\\evento\\evento-front-end\\evento-front-end\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|solutionrelative:evento-front-end\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|c:\\users\\morte\\github\\evento\\evento-front-end\\evento-front-end\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|solutionrelative:evento-front-end\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|c:\\users\\morte\\github\\evento\\evento-front-end\\evento-front-end\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|solutionrelative:evento-front-end\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|c:\\users\\morte\\github\\evento\\evento-front-end\\evento-front-end\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|solutionrelative:evento-front-end\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|c:\\users\\morte\\github\\evento\\evento-front-end\\evento-front-end\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|solutionrelative:evento-front-end\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|c:\\users\\morte\\github\\evento\\evento-front-end\\evento-front-end\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|solutionrelative:evento-front-end\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|c:\\users\\morte\\github\\evento\\evento-front-end\\evento-front-end\\viewmodels\\company\\bookingvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|solutionrelative:evento-front-end\\viewmodels\\company\\bookingvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|c:\\users\\morte\\github\\evento\\evento-front-end\\evento-front-end\\models\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|solutionrelative:evento-front-end\\models\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|c:\\users\\morte\\github\\evento\\evento-front-end\\evento-front-end\\views\\home\\booking.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|solutionrelative:evento-front-end\\views\\home\\booking.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|c:\\users\\morte\\github\\evento\\evento-front-end\\evento-front-end\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|solutionrelative:evento-front-end\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|c:\\users\\morte\\github\\evento\\evento-front-end\\evento-front-end\\dtos\\servicedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -147,20 +199,8 @@
       "RelativeMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|solutionrelative:evento-front-end\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|c:\\users\\morte\\github\\evento\\evento-front-end\\evento-front-end\\models\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|solutionrelative:evento-front-end\\models\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|c:\\users\\morte\\github\\evento\\evento-front-end\\evento-front-end\\utils\\names.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|solutionrelative:evento-front-end\\utils\\names.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|c:\\users\\morte\\github\\evento\\evento-front-end\\evento-front-end\\views\\home\\tasks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|solutionrelative:evento-front-end\\views\\home\\tasks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|c:\\users\\morte\\github\\evento\\evento-front-end\\evento-front-end\\dtos\\companydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|solutionrelative:evento-front-end\\dtos\\companydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|c:\\users\\morte\\github\\evento\\evento-front-end\\evento-front-end\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -171,20 +211,8 @@
       "RelativeMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|solutionrelative:evento-front-end\\views\\home\\tools.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|c:\\users\\morte\\github\\evento\\evento-front-end\\evento-front-end\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|solutionrelative:evento-front-end\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|c:\\users\\morte\\github\\evento\\evento-front-end\\evento-front-end\\controllers\\frontendaccountcontroller_backup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|solutionrelative:evento-front-end\\controllers\\frontendaccountcontroller_backup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|c:\\users\\morte\\github\\evento\\evento-front-end\\evento-front-end\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|solutionrelative:evento-front-end\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|c:\\users\\morte\\github\\evento\\evento-front-end\\evento-front-end\\wwwroot\\css\\account.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|solutionrelative:evento-front-end\\wwwroot\\css\\account.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9EF2B903-0316-48AA-9D77-18E079F2BE36}|Evento-Front-end\\Evento-Front-end.csproj|c:\\users\\morte\\github\\evento\\evento-front-end\\evento-front-end\\evento-front-end.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -206,7 +234,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -218,7 +246,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 0,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Evento-Front-end\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "Evento-Front-end\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAqwCIAAABnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-26T11:37:12.311Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Companies.cshtml",
+              "DocumentMoniker": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\Views\\Home\\Companies.cshtml",
+              "RelativeDocumentMoniker": "Evento-Front-end\\Views\\Home\\Companies.cshtml",
+              "ToolTip": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\Views\\Home\\Companies.cshtml",
+              "RelativeToolTip": "Evento-Front-end\\Views\\Home\\Companies.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACAAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-28T15:09:42.12Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "CompanyDetails.cshtml",
               "DocumentMoniker": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\Views\\Home\\CompanyDetails.cshtml",
               "RelativeDocumentMoniker": "Evento-Front-end\\Views\\Home\\CompanyDetails.cshtml",
@@ -226,84 +280,25 @@
               "RelativeToolTip": "Evento-Front-end\\Views\\Home\\CompanyDetails.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-16T10:49:54.395Z"
+              "WhenOpened": "2026-04-16T10:49:54.395Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 6,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Evento-Front-end\\Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "Evento-Front-end\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-26T11:39:22.04Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Jobs.cshtml",
-              "DocumentMoniker": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\Views\\Home\\Jobs.cshtml",
-              "RelativeDocumentMoniker": "Evento-Front-end\\Views\\Home\\Jobs.cshtml",
-              "ToolTip": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\Views\\Home\\Jobs.cshtml",
-              "RelativeToolTip": "Evento-Front-end\\Views\\Home\\Jobs.cshtml",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAqwCIAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-11T09:17:21.819Z",
+              "WhenOpened": "2026-02-26T11:39:22.04Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "RequestController.cs",
-              "DocumentMoniker": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\Controllers\\RequestController.cs",
-              "RelativeDocumentMoniker": "Evento-Front-end\\Controllers\\RequestController.cs",
-              "ToolTip": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\Controllers\\RequestController.cs",
-              "RelativeToolTip": "Evento-Front-end\\Controllers\\RequestController.cs",
-              "ViewState": "AgIAADIAAAAAAAAAAAAwwE8AAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-01T19:44:43.44Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Request.cs",
-              "DocumentMoniker": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\Models\\Request.cs",
-              "RelativeDocumentMoniker": "Evento-Front-end\\Models\\Request.cs",
-              "ToolTip": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\Models\\Request.cs",
-              "RelativeToolTip": "Evento-Front-end\\Models\\Request.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-04T17:06:04.028Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Requests.cshtml",
-              "DocumentMoniker": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\Views\\Home\\Requests.cshtml",
-              "RelativeDocumentMoniker": "Evento-Front-end\\Views\\Home\\Requests.cshtml",
-              "ToolTip": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\Views\\Home\\Requests.cshtml",
-              "RelativeToolTip": "Evento-Front-end\\Views\\Home\\Requests.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAADYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-01T12:20:42.338Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "RequestHistory.cshtml",
-              "DocumentMoniker": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\Views\\Home\\RequestHistory.cshtml",
-              "RelativeDocumentMoniker": "Evento-Front-end\\Views\\Home\\RequestHistory.cshtml",
-              "ToolTip": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\Views\\Home\\RequestHistory.cshtml",
-              "RelativeToolTip": "Evento-Front-end\\Views\\Home\\RequestHistory.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAACcAAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-18T19:31:34.241Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Privacy.cshtml",
               "DocumentMoniker": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\Views\\Home\\Privacy.cshtml",
               "RelativeDocumentMoniker": "Evento-Front-end\\Views\\Home\\Privacy.cshtml",
@@ -311,287 +306,51 @@
               "RelativeToolTip": "Evento-Front-end\\Views\\Home\\Privacy.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-26T11:39:25.528Z"
+              "WhenOpened": "2026-02-26T11:39:25.528Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Evento-Front-end\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Evento-Front-end\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAK4AAAAAAAAAAAAmwMEAAABQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-27T15:45:39.443Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Evento-Front-end\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Evento-Front-end\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAC0AAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-26T10:40:19.404Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "RequestDTO.cs",
-              "DocumentMoniker": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\DTOs\\RequestDTO.cs",
-              "RelativeDocumentMoniker": "Evento-Front-end\\DTOs\\RequestDTO.cs",
-              "ToolTip": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\DTOs\\RequestDTO.cs",
-              "RelativeToolTip": "Evento-Front-end\\DTOs\\RequestDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-01T21:08:31.198Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ErrorViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\ViewModels\\ErrorViewModel.cs",
-              "RelativeDocumentMoniker": "Evento-Front-end\\ViewModels\\ErrorViewModel.cs",
-              "ToolTip": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\ViewModels\\ErrorViewModel.cs",
-              "RelativeToolTip": "Evento-Front-end\\ViewModels\\ErrorViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-27T15:44:14.63Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ShowCompanyDetailsVM.cs",
-              "DocumentMoniker": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\ViewModels\\Company\\ShowCompanyDetailsVM.cs",
-              "RelativeDocumentMoniker": "Evento-Front-end\\ViewModels\\Company\\ShowCompanyDetailsVM.cs",
-              "ToolTip": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\ViewModels\\Company\\ShowCompanyDetailsVM.cs",
-              "RelativeToolTip": "Evento-Front-end\\ViewModels\\Company\\ShowCompanyDetailsVM.cs",
+              "DocumentIndex": 4,
+              "Title": "Tasks.cshtml",
+              "DocumentMoniker": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\Views\\Home\\Tasks.cshtml",
+              "RelativeDocumentMoniker": "Evento-Front-end\\Views\\Home\\Tasks.cshtml",
+              "ToolTip": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\Views\\Home\\Tasks.cshtml",
+              "RelativeToolTip": "Evento-Front-end\\Views\\Home\\Tasks.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-16T20:11:41.926Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ShowAllCompaniesVM.cs",
-              "DocumentMoniker": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\ViewModels\\Company\\ShowAllCompaniesVM.cs",
-              "RelativeDocumentMoniker": "Evento-Front-end\\ViewModels\\Company\\ShowAllCompaniesVM.cs",
-              "ToolTip": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\ViewModels\\Company\\ShowAllCompaniesVM.cs",
-              "RelativeToolTip": "Evento-Front-end\\ViewModels\\Company\\ShowAllCompaniesVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-03T09:09:25.07Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "RequestsVM.cs",
-              "DocumentMoniker": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\ViewModels\\Company\\RequestsVM.cs",
-              "RelativeDocumentMoniker": "Evento-Front-end\\ViewModels\\Company\\RequestsVM.cs",
-              "ToolTip": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\ViewModels\\Company\\RequestsVM.cs",
-              "RelativeToolTip": "Evento-Front-end\\ViewModels\\Company\\RequestsVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-01T21:10:27.378Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "RequestRowVM.cs",
-              "DocumentMoniker": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\ViewModels\\Company\\RequestRowVM.cs",
-              "RelativeDocumentMoniker": "Evento-Front-end\\ViewModels\\Company\\RequestRowVM.cs",
-              "ToolTip": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\ViewModels\\Company\\RequestRowVM.cs",
-              "RelativeToolTip": "Evento-Front-end\\ViewModels\\Company\\RequestRowVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-11T12:29:08.145Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "JobsVM.cs",
-              "DocumentMoniker": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\ViewModels\\Company\\JobsVM.cs",
-              "RelativeDocumentMoniker": "Evento-Front-end\\ViewModels\\Company\\JobsVM.cs",
-              "ToolTip": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\ViewModels\\Company\\JobsVM.cs",
-              "RelativeToolTip": "Evento-Front-end\\ViewModels\\Company\\JobsVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-14T16:25:56.431Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Companies.cshtml",
-              "DocumentMoniker": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\Views\\Home\\Companies.cshtml",
-              "RelativeDocumentMoniker": "Evento-Front-end\\Views\\Home\\Companies.cshtml",
-              "ToolTip": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\Views\\Home\\Companies.cshtml",
-              "RelativeToolTip": "Evento-Front-end\\Views\\Home\\Companies.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-28T15:09:42.12Z"
+              "WhenOpened": "2026-03-02T12:20:48.438Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\Views\\Account\\Login.cshtml",
-              "RelativeDocumentMoniker": "Evento-Front-end\\Views\\Account\\Login.cshtml",
-              "ToolTip": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\Views\\Account\\Login.cshtml",
-              "RelativeToolTip": "Evento-Front-end\\Views\\Account\\Login.cshtml",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAAC8AAABKAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Requests.cshtml",
+              "DocumentMoniker": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\Views\\Home\\Requests.cshtml",
+              "RelativeDocumentMoniker": "Evento-Front-end\\Views\\Home\\Requests.cshtml",
+              "ToolTip": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\Views\\Home\\Requests.cshtml",
+              "RelativeToolTip": "Evento-Front-end\\Views\\Home\\Requests.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAADYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-26T11:37:12.311Z"
+              "WhenOpened": "2026-05-01T12:20:42.338Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "_AccountLayout.cshtml",
-              "DocumentMoniker": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\Views\\Shared\\_AccountLayout.cshtml",
-              "RelativeDocumentMoniker": "Evento-Front-end\\Views\\Shared\\_AccountLayout.cshtml",
-              "ToolTip": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\Views\\Shared\\_AccountLayout.cshtml",
-              "RelativeToolTip": "Evento-Front-end\\Views\\Shared\\_AccountLayout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-27T10:18:31.546Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\Views\\_ViewStart.cshtml",
-              "RelativeDocumentMoniker": "Evento-Front-end\\Views\\_ViewStart.cshtml",
-              "ToolTip": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\Views\\_ViewStart.cshtml",
-              "RelativeToolTip": "Evento-Front-end\\Views\\_ViewStart.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-26T11:39:14.085Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\Views\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "Evento-Front-end\\Views\\_ViewImports.cshtml",
-              "ToolTip": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\Views\\_ViewImports.cshtml",
-              "RelativeToolTip": "Evento-Front-end\\Views\\_ViewImports.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-26T11:39:12.263Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\Program.cs",
-              "RelativeDocumentMoniker": "Evento-Front-end\\Program.cs",
-              "ToolTip": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\Program.cs",
-              "RelativeToolTip": "Evento-Front-end\\Program.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAgwEIAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-26T10:24:10.882Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "Evento-Front-end\\Controllers\\AccountController.cs",
-              "ToolTip": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "Evento-Front-end\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAApwBMAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-05T09:25:33.524Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "_RegisterPartial.cshtml",
-              "DocumentMoniker": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\Views\\Shared\\_RegisterPartial.cshtml",
-              "RelativeDocumentMoniker": "Evento-Front-end\\Views\\Shared\\_RegisterPartial.cshtml",
-              "ToolTip": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\Views\\Shared\\_RegisterPartial.cshtml",
-              "RelativeToolTip": "Evento-Front-end\\Views\\Shared\\_RegisterPartial.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-26T16:06:43.848Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "_LoginPartial.cshtml",
-              "DocumentMoniker": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\Views\\Shared\\_LoginPartial.cshtml",
-              "RelativeDocumentMoniker": "Evento-Front-end\\Views\\Shared\\_LoginPartial.cshtml",
-              "ToolTip": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\Views\\Shared\\_LoginPartial.cshtml",
-              "RelativeToolTip": "Evento-Front-end\\Views\\Shared\\_LoginPartial.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-26T09:55:19.494Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "site.css",
-              "DocumentMoniker": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "Evento-Front-end\\wwwroot\\css\\site.css",
-              "ToolTip": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "Evento-Front-end\\wwwroot\\css\\site.css",
-              "ViewState": "AgIAADwAAAAAAAAAAAAAAF4AAAASAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "account.css",
+              "DocumentMoniker": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\wwwroot\\css\\account.css",
+              "RelativeDocumentMoniker": "Evento-Front-end\\wwwroot\\css\\account.css",
+              "ToolTip": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\wwwroot\\css\\account.css",
+              "RelativeToolTip": "Evento-Front-end\\wwwroot\\css\\account.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-02-27T10:35:03.376Z"
+              "WhenOpened": "2026-02-27T10:21:00.956Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "Evento-Front-end\\Data\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "Evento-Front-end\\Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-26T10:21:43.113Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "LoginViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\ViewModels\\LoginViewModel.cs",
-              "RelativeDocumentMoniker": "Evento-Front-end\\ViewModels\\LoginViewModel.cs",
-              "ToolTip": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\ViewModels\\LoginViewModel.cs",
-              "RelativeToolTip": "Evento-Front-end\\ViewModels\\LoginViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-26T09:51:56.547Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "BookingVM.cs",
-              "DocumentMoniker": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\ViewModels\\Company\\BookingVM.cs",
-              "RelativeDocumentMoniker": "Evento-Front-end\\ViewModels\\Company\\BookingVM.cs",
-              "ToolTip": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\ViewModels\\Company\\BookingVM.cs",
-              "RelativeToolTip": "Evento-Front-end\\ViewModels\\Company\\BookingVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-30T12:08:53.011Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "Company.cs",
-              "DocumentMoniker": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\Models\\Company.cs",
-              "RelativeDocumentMoniker": "Evento-Front-end\\Models\\Company.cs",
-              "ToolTip": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\Models\\Company.cs",
-              "RelativeToolTip": "Evento-Front-end\\Models\\Company.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-02T12:20:24.283Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 2,
               "Title": "Booking.cshtml",
               "DocumentMoniker": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\Views\\Home\\Booking.cshtml",
               "RelativeDocumentMoniker": "Evento-Front-end\\Views\\Home\\Booking.cshtml",
@@ -599,11 +358,88 @@
               "RelativeToolTip": "Evento-Front-end\\Views\\Home\\Booking.cshtml",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAACgAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-28T12:06:06.781Z"
+              "WhenOpened": "2026-04-28T12:06:06.781Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 9,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "Evento-Front-end\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "Evento-Front-end\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAiwGYAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-02-27T10:35:03.376Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "Evento-Front-end\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "Evento-Front-end\\Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-26T09:55:19.494Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Evento-Front-end\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Evento-Front-end\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-26T10:40:19.404Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\appsettings.json",
+              "RelativeDocumentMoniker": "Evento-Front-end\\appsettings.json",
+              "ToolTip": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\appsettings.json",
+              "RelativeToolTip": "Evento-Front-end\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-26T10:16:12.152Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "LoginResponseDTO.cs",
+              "DocumentMoniker": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\DTOs\\LoginResponseDTO.cs",
+              "RelativeDocumentMoniker": "Evento-Front-end\\DTOs\\LoginResponseDTO.cs",
+              "ToolTip": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\DTOs\\LoginResponseDTO.cs",
+              "RelativeToolTip": "Evento-Front-end\\DTOs\\LoginResponseDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-06T21:12:10.151Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "RequestController.cs",
+              "DocumentMoniker": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\Controllers\\RequestController.cs",
+              "RelativeDocumentMoniker": "Evento-Front-end\\Controllers\\RequestController.cs",
+              "ToolTip": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\Controllers\\RequestController.cs",
+              "RelativeToolTip": "Evento-Front-end\\Controllers\\RequestController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE8AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T19:44:43.44Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "CustomerController.cs",
               "DocumentMoniker": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\Controllers\\CustomerController.cs",
               "RelativeDocumentMoniker": "Evento-Front-end\\Controllers\\CustomerController.cs",
@@ -615,139 +451,103 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "CustomerDTO.cs",
-              "DocumentMoniker": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\DTOs\\CustomerDTO.cs",
-              "RelativeDocumentMoniker": "Evento-Front-end\\DTOs\\CustomerDTO.cs",
-              "ToolTip": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\DTOs\\CustomerDTO.cs",
-              "RelativeToolTip": "Evento-Front-end\\DTOs\\CustomerDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\Program.cs",
+              "RelativeDocumentMoniker": "Evento-Front-end\\Program.cs",
+              "ToolTip": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\Program.cs",
+              "RelativeToolTip": "Evento-Front-end\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-12T16:54:57.06Z"
+              "WhenOpened": "2026-02-26T10:24:10.882Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "Tasks.cshtml",
-              "DocumentMoniker": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\Views\\Home\\Tasks.cshtml",
-              "RelativeDocumentMoniker": "Evento-Front-end\\Views\\Home\\Tasks.cshtml",
-              "ToolTip": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\Views\\Home\\Tasks.cshtml",
-              "RelativeToolTip": "Evento-Front-end\\Views\\Home\\Tasks.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-02T12:20:48.438Z"
+              "DocumentIndex": 15,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Evento-Front-end\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Evento-Front-end\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAwwBoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T15:45:39.443Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Evento-Front-end\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Evento-Front-end\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAcwDUAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-05T09:25:33.524Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ShowAllCompaniesVM.cs",
+              "DocumentMoniker": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\ViewModels\\Company\\ShowAllCompaniesVM.cs",
+              "RelativeDocumentMoniker": "Evento-Front-end\\ViewModels\\Company\\ShowAllCompaniesVM.cs",
+              "ToolTip": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\ViewModels\\Company\\ShowAllCompaniesVM.cs",
+              "RelativeToolTip": "Evento-Front-end\\ViewModels\\Company\\ShowAllCompaniesVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-03T09:09:25.07Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\ViewModels\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "Evento-Front-end\\ViewModels\\LoginViewModel.cs",
+              "ToolTip": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\ViewModels\\LoginViewModel.cs",
+              "RelativeToolTip": "Evento-Front-end\\ViewModels\\LoginViewModel.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAwwBIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-26T09:51:56.547Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 33,
-              "Title": "ServiceDTO.cs",
-              "DocumentMoniker": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\DTOs\\ServiceDTO.cs",
-              "RelativeDocumentMoniker": "Evento-Front-end\\DTOs\\ServiceDTO.cs",
-              "ToolTip": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\DTOs\\ServiceDTO.cs",
-              "RelativeToolTip": "Evento-Front-end\\DTOs\\ServiceDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAuAAAAAAAAAA==",
+              "Title": "Request.cs",
+              "DocumentMoniker": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\Models\\Request.cs",
+              "RelativeDocumentMoniker": "Evento-Front-end\\Models\\Request.cs",
+              "ToolTip": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\Models\\Request.cs",
+              "RelativeToolTip": "Evento-Front-end\\Models\\Request.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-16T12:48:52.103Z"
+              "WhenOpened": "2026-05-04T17:06:04.028Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "Names.cs",
-              "DocumentMoniker": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\Utils\\Names.cs",
-              "RelativeDocumentMoniker": "Evento-Front-end\\Utils\\Names.cs",
-              "ToolTip": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\Utils\\Names.cs",
-              "RelativeToolTip": "Evento-Front-end\\Utils\\Names.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-03T09:04:09.825Z"
+              "DocumentIndex": 26,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Evento-Front-end\\Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "Evento-Front-end\\Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAYwB8AAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-05T11:03:50.721Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "Customer.cs",
-              "DocumentMoniker": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\Models\\Customer.cs",
-              "RelativeDocumentMoniker": "Evento-Front-end\\Models\\Customer.cs",
-              "ToolTip": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\Models\\Customer.cs",
-              "RelativeToolTip": "Evento-Front-end\\Models\\Customer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-13T20:13:25.243Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "Service.cs",
-              "DocumentMoniker": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\Models\\Service.cs",
-              "RelativeDocumentMoniker": "Evento-Front-end\\Models\\Service.cs",
-              "ToolTip": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\Models\\Service.cs",
-              "RelativeToolTip": "Evento-Front-end\\Models\\Service.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-11T12:06:42.334Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 22,
               "Title": "CompanyDTO.cs",
               "DocumentMoniker": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\DTOs\\CompanyDTO.cs",
               "RelativeDocumentMoniker": "Evento-Front-end\\DTOs\\CompanyDTO.cs",
               "ToolTip": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\DTOs\\CompanyDTO.cs",
               "RelativeToolTip": "Evento-Front-end\\DTOs\\CompanyDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-28T17:14:19.882Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "Users.cs",
-              "DocumentMoniker": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\Models\\Users.cs",
-              "RelativeDocumentMoniker": "Evento-Front-end\\Models\\Users.cs",
-              "ToolTip": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\Models\\Users.cs",
-              "RelativeToolTip": "Evento-Front-end\\Models\\Users.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-26T10:20:07.996Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "Tools.cshtml",
-              "DocumentMoniker": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\Views\\Home\\Tools.cshtml",
-              "RelativeDocumentMoniker": "Evento-Front-end\\Views\\Home\\Tools.cshtml",
-              "ToolTip": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\Views\\Home\\Tools.cshtml",
-              "RelativeToolTip": "Evento-Front-end\\Views\\Home\\Tools.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-02T12:21:10.559Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\appsettings.json",
-              "RelativeDocumentMoniker": "Evento-Front-end\\appsettings.json",
-              "ToolTip": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\appsettings.json",
-              "RelativeToolTip": "Evento-Front-end\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-02-26T10:16:12.152Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "FrontendAccountController_Backup.cs",
-              "DocumentMoniker": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\Controllers\\FrontendAccountController_Backup.cs",
-              "RelativeDocumentMoniker": "Evento-Front-end\\Controllers\\FrontendAccountController_Backup.cs",
-              "ToolTip": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\Controllers\\FrontendAccountController_Backup.cs",
-              "RelativeToolTip": "Evento-Front-end\\Controllers\\FrontendAccountController_Backup.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAADUAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-26T10:42:26.055Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 21,
               "Title": "LoginDTO.cs",
               "DocumentMoniker": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\DTOs\\LoginDTO.cs",
               "RelativeDocumentMoniker": "Evento-Front-end\\DTOs\\LoginDTO.cs",
@@ -759,19 +559,343 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Company.cs",
+              "DocumentMoniker": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\Models\\Company.cs",
+              "RelativeDocumentMoniker": "Evento-Front-end\\Models\\Company.cs",
+              "ToolTip": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\Models\\Company.cs",
+              "RelativeToolTip": "Evento-Front-end\\Models\\Company.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T12:20:24.283Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Members.cshtml",
+              "DocumentMoniker": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\Views\\Home\\Members.cshtml",
+              "RelativeDocumentMoniker": "Evento-Front-end\\Views\\Home\\Members.cshtml",
+              "ToolTip": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\Views\\Home\\Members.cshtml",
+              "RelativeToolTip": "Evento-Front-end\\Views\\Home\\Members.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-02T02:37:08.577Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "RegisterDTO.cs",
+              "DocumentMoniker": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\DTOs\\RegisterDTO.cs",
+              "RelativeDocumentMoniker": "Evento-Front-end\\DTOs\\RegisterDTO.cs",
+              "ToolTip": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\DTOs\\RegisterDTO.cs",
+              "RelativeToolTip": "Evento-Front-end\\DTOs\\RegisterDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-05T13:47:00.271Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "RegisterViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\ViewModels\\RegisterViewModel.cs",
+              "RelativeDocumentMoniker": "Evento-Front-end\\ViewModels\\RegisterViewModel.cs",
+              "ToolTip": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\ViewModels\\RegisterViewModel.cs",
+              "RelativeToolTip": "Evento-Front-end\\ViewModels\\RegisterViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-05T11:05:27.382Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "VerifyEmailViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\ViewModels\\VerifyEmailViewModel.cs",
+              "RelativeDocumentMoniker": "Evento-Front-end\\ViewModels\\VerifyEmailViewModel.cs",
+              "ToolTip": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\ViewModels\\VerifyEmailViewModel.cs",
+              "RelativeToolTip": "Evento-Front-end\\ViewModels\\VerifyEmailViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-05T11:12:18.065Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ChangePasswordViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\ViewModels\\ChangePasswordViewModel.cs",
+              "RelativeDocumentMoniker": "Evento-Front-end\\ViewModels\\ChangePasswordViewModel.cs",
+              "ToolTip": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\ViewModels\\ChangePasswordViewModel.cs",
+              "RelativeToolTip": "Evento-Front-end\\ViewModels\\ChangePasswordViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-05T11:13:01.934Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Jobs.cshtml",
+              "DocumentMoniker": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\Views\\Home\\Jobs.cshtml",
+              "RelativeDocumentMoniker": "Evento-Front-end\\Views\\Home\\Jobs.cshtml",
+              "ToolTip": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\Views\\Home\\Jobs.cshtml",
+              "RelativeToolTip": "Evento-Front-end\\Views\\Home\\Jobs.cshtml",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAqwCIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-11T09:17:21.819Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "RequestHistory.cshtml",
+              "DocumentMoniker": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\Views\\Home\\RequestHistory.cshtml",
+              "RelativeDocumentMoniker": "Evento-Front-end\\Views\\Home\\RequestHistory.cshtml",
+              "ToolTip": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\Views\\Home\\RequestHistory.cshtml",
+              "RelativeToolTip": "Evento-Front-end\\Views\\Home\\RequestHistory.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACcAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-18T19:31:34.241Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Service.cs",
+              "DocumentMoniker": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\Models\\Service.cs",
+              "RelativeDocumentMoniker": "Evento-Front-end\\Models\\Service.cs",
+              "ToolTip": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\Models\\Service.cs",
+              "RelativeToolTip": "Evento-Front-end\\Models\\Service.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAQwBIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T12:06:42.334Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "RequestDTO.cs",
+              "DocumentMoniker": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\DTOs\\RequestDTO.cs",
+              "RelativeDocumentMoniker": "Evento-Front-end\\DTOs\\RequestDTO.cs",
+              "ToolTip": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\DTOs\\RequestDTO.cs",
+              "RelativeToolTip": "Evento-Front-end\\DTOs\\RequestDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T21:08:31.198Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\ViewModels\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Evento-Front-end\\ViewModels\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\ViewModels\\ErrorViewModel.cs",
+              "RelativeToolTip": "Evento-Front-end\\ViewModels\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T15:44:14.63Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "ShowCompanyDetailsVM.cs",
+              "DocumentMoniker": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\ViewModels\\Company\\ShowCompanyDetailsVM.cs",
+              "RelativeDocumentMoniker": "Evento-Front-end\\ViewModels\\Company\\ShowCompanyDetailsVM.cs",
+              "ToolTip": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\ViewModels\\Company\\ShowCompanyDetailsVM.cs",
+              "RelativeToolTip": "Evento-Front-end\\ViewModels\\Company\\ShowCompanyDetailsVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T20:11:41.926Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "RequestsVM.cs",
+              "DocumentMoniker": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\ViewModels\\Company\\RequestsVM.cs",
+              "RelativeDocumentMoniker": "Evento-Front-end\\ViewModels\\Company\\RequestsVM.cs",
+              "ToolTip": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\ViewModels\\Company\\RequestsVM.cs",
+              "RelativeToolTip": "Evento-Front-end\\ViewModels\\Company\\RequestsVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T21:10:27.378Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "RequestRowVM.cs",
+              "DocumentMoniker": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\ViewModels\\Company\\RequestRowVM.cs",
+              "RelativeDocumentMoniker": "Evento-Front-end\\ViewModels\\Company\\RequestRowVM.cs",
+              "ToolTip": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\ViewModels\\Company\\RequestRowVM.cs",
+              "RelativeToolTip": "Evento-Front-end\\ViewModels\\Company\\RequestRowVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T12:29:08.145Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "JobsVM.cs",
+              "DocumentMoniker": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\ViewModels\\Company\\JobsVM.cs",
+              "RelativeDocumentMoniker": "Evento-Front-end\\ViewModels\\Company\\JobsVM.cs",
+              "ToolTip": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\ViewModels\\Company\\JobsVM.cs",
+              "RelativeToolTip": "Evento-Front-end\\ViewModels\\Company\\JobsVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T16:25:56.431Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "_AccountLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\Views\\Shared\\_AccountLayout.cshtml",
+              "RelativeDocumentMoniker": "Evento-Front-end\\Views\\Shared\\_AccountLayout.cshtml",
+              "ToolTip": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\Views\\Shared\\_AccountLayout.cshtml",
+              "RelativeToolTip": "Evento-Front-end\\Views\\Shared\\_AccountLayout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-27T10:18:31.546Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Evento-Front-end\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Evento-Front-end\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-26T11:39:14.085Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Evento-Front-end\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Evento-Front-end\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-26T11:39:12.263Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "_RegisterPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\Views\\Shared\\_RegisterPartial.cshtml",
+              "RelativeDocumentMoniker": "Evento-Front-end\\Views\\Shared\\_RegisterPartial.cshtml",
+              "ToolTip": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\Views\\Shared\\_RegisterPartial.cshtml",
+              "RelativeToolTip": "Evento-Front-end\\Views\\Shared\\_RegisterPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-26T16:06:43.848Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Evento-Front-end\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Evento-Front-end\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-26T10:21:43.113Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 45,
-              "Title": "account.css",
-              "DocumentMoniker": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\wwwroot\\css\\account.css",
-              "RelativeDocumentMoniker": "Evento-Front-end\\wwwroot\\css\\account.css",
-              "ToolTip": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\wwwroot\\css\\account.css",
-              "RelativeToolTip": "Evento-Front-end\\wwwroot\\css\\account.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-02-27T10:21:00.956Z"
+              "Title": "BookingVM.cs",
+              "DocumentMoniker": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\ViewModels\\Company\\BookingVM.cs",
+              "RelativeDocumentMoniker": "Evento-Front-end\\ViewModels\\Company\\BookingVM.cs",
+              "ToolTip": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\ViewModels\\Company\\BookingVM.cs",
+              "RelativeToolTip": "Evento-Front-end\\ViewModels\\Company\\BookingVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-30T12:08:53.011Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "CustomerDTO.cs",
+              "DocumentMoniker": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\DTOs\\CustomerDTO.cs",
+              "RelativeDocumentMoniker": "Evento-Front-end\\DTOs\\CustomerDTO.cs",
+              "ToolTip": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\DTOs\\CustomerDTO.cs",
+              "RelativeToolTip": "Evento-Front-end\\DTOs\\CustomerDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T16:54:57.06Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 46,
+              "Title": "ServiceDTO.cs",
+              "DocumentMoniker": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\DTOs\\ServiceDTO.cs",
+              "RelativeDocumentMoniker": "Evento-Front-end\\DTOs\\ServiceDTO.cs",
+              "ToolTip": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\DTOs\\ServiceDTO.cs",
+              "RelativeToolTip": "Evento-Front-end\\DTOs\\ServiceDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T12:48:52.103Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "Names.cs",
+              "DocumentMoniker": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\Utils\\Names.cs",
+              "RelativeDocumentMoniker": "Evento-Front-end\\Utils\\Names.cs",
+              "ToolTip": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\Utils\\Names.cs",
+              "RelativeToolTip": "Evento-Front-end\\Utils\\Names.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-03T09:04:09.825Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "Evento-Front-end\\Models\\Customer.cs",
+              "ToolTip": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\Models\\Customer.cs",
+              "RelativeToolTip": "Evento-Front-end\\Models\\Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T20:13:25.243Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "Users.cs",
+              "DocumentMoniker": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\Models\\Users.cs",
+              "RelativeDocumentMoniker": "Evento-Front-end\\Models\\Users.cs",
+              "ToolTip": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\Models\\Users.cs",
+              "RelativeToolTip": "Evento-Front-end\\Models\\Users.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-26T10:20:07.996Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "Tools.cshtml",
+              "DocumentMoniker": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\Views\\Home\\Tools.cshtml",
+              "RelativeDocumentMoniker": "Evento-Front-end\\Views\\Home\\Tools.cshtml",
+              "ToolTip": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\Views\\Home\\Tools.cshtml",
+              "RelativeToolTip": "Evento-Front-end\\Views\\Home\\Tools.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-02T12:21:10.559Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "FrontendAccountController_Backup.cs",
+              "DocumentMoniker": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\Controllers\\FrontendAccountController_Backup.cs",
+              "RelativeDocumentMoniker": "Evento-Front-end\\Controllers\\FrontendAccountController_Backup.cs",
+              "ToolTip": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\Controllers\\FrontendAccountController_Backup.cs",
+              "RelativeToolTip": "Evento-Front-end\\Controllers\\FrontendAccountController_Backup.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAADUAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-26T10:42:26.055Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
               "Title": "Evento-Front-end.csproj",
               "DocumentMoniker": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\Evento-Front-end.csproj",
               "RelativeDocumentMoniker": "Evento-Front-end\\Evento-Front-end.csproj",
@@ -783,7 +907,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 54,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Evento-Front-end\\Properties\\launchSettings.json",
@@ -795,7 +919,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 55,
               "Title": "_ValidationScriptsPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\morte\\GitHub\\Evento\\Evento-Front-end\\Evento-Front-end\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "RelativeDocumentMoniker": "Evento-Front-end\\Views\\Shared\\_ValidationScriptsPartial.cshtml",

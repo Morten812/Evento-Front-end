@@ -218,5 +218,10 @@ namespace Evento_Front_end.Controllers
 
             return View(vm);
         }
+
+        public IActionResult Members()
+        {
+            return View();
+        }
     }
 }

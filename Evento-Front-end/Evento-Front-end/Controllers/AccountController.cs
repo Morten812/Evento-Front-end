@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Evento_Front_end.ViewModels;
 using Evento_Front_end.Models;
+using Evento_Front_end.DTOs;
 
 namespace Evento_Front_end.Controllers
 {
@@ -12,9 +13,15 @@ namespace Evento_Front_end.Controllers
         public AccountController(IHttpClientFactory factory)
         {
             _httpClient = factory.CreateClient("ApiClient");
+
         }
 
         public IActionResult Login()
+        {
+            return View();
+        }
+
+        public IActionResult Register()
         {
             return View();
         }
@@ -26,22 +33,34 @@ namespace Evento_Front_end.Controllers
             if (!ModelState.IsValid)
                 return View(model);
 
-            var payload = new
-            {
-                Email = model.Email,
-                Password = model.Password,
-                RememberMe = model.RememberMe
-            };
-
             var response = await _httpClient.PostAsJsonAsync(
-                "api/account/login",
-                model);
+                "https://localhost:7251/api/account/login",
+                new LoginDTO
+                {
+                    Email = model.Email,
+                    Password = model.Password,
+                    RememberMe = model.RememberMe
+                });
+
+            var responseBody = await response.Content.ReadAsStringAsync();
+            Console.WriteLine("LOGIN RESPONSE:");
+            Console.WriteLine(response.StatusCode);
+            Console.WriteLine(responseBody);
 
             if (!response.IsSuccessStatusCode)
             {
+                var error = await response.Content.ReadAsStringAsync();
+                Console.WriteLine("LOGIN FAILED DETAILS");
+                Console.WriteLine(error);
+
                 ModelState.AddModelError("", "Login Failed");
                 return View(model);
             }
+
+            var tokenResponse = await response.Content
+                .ReadFromJsonAsync<LoginResponseDTO>();
+
+            HttpContext.Session.SetString("JWT", tokenResponse.Token);
 
             return RedirectToAction("Index", "Home");
         }

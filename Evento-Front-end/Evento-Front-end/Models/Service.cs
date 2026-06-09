@@ -9,4 +9,11 @@
         public string? Description { get; set; }
         public decimal Price { get; set; }
     }
+
+    public enum ServiceCategory
+    {
+        Cleaning = 1,
+        Security = 2,
+        Transportation = 3
+    }
 }

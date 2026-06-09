@@ -1,8 +1,11 @@
 ﻿@using Microsoft.AspNetCore.Identity;
-@inject SignInManager<Users> signInManager;
+
+@{
+    var token = Context.Session.GetString("JWT");
+}
 
 <ul class="navbar-nav ms-auto">
-    @if(signInManager.IsSignedIn(User))
+    @if(!string.IsNullOrWhiteSpace(token))
     {
         <li class="nav-item">
             <a class="nav-link text-danger" asp-controller="Account" asp-action="Logout">Logout</a>
@@ -12,6 +15,9 @@
     {
         <li class="nav-item">
             <a class="nav-link text-danger" asp-controller="Account" asp-action="Login">Login</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-danger" asp-controller="Account" asp-action="Register">Register</a>
         </li>
     }
 </ul>

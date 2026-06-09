@@ -18,27 +18,12 @@ namespace Evento_Front_end
             builder.Services.AddDbContext<AppDbContext>(options =>
             options.UseSqlServer(builder.Configuration.GetConnectionString("SqlServerConnection")));
 
-            builder.Services.AddIdentity<Users, IdentityRole>(options =>
-            {
-                options.Password.RequireNonAlphanumeric = false;
-                options.Password.RequireUppercase = false;
-                options.Password.RequireLowercase = false;
-                options.User.RequireUniqueEmail = true;
-                options.SignIn.RequireConfirmedEmail = true;
-                options.SignIn.RequireConfirmedAccount = false;
-                options.SignIn.RequireConfirmedPhoneNumber = false;
-            })
-                .AddEntityFrameworkStores<AppDbContext>()
-                .AddDefaultTokenProviders();
+            builder.Services.AddSession();
 
-            /*
-            builder.Services.AddHttpClient("ApiClient", client =>
+            builder.Services.AddHttpClient("ApiClient", c =>
             {
-                client.BaseAddress = new Uri("https://localhost:7251/");
+                c.BaseAddress = new Uri("https://localhost:7251/");
             });
-            */
-
-            builder.Services.AddHttpClient();
 
             var app = builder.Build();
 
@@ -55,7 +40,10 @@ namespace Evento_Front_end
 
             app.UseRouting();
 
+            app.UseAuthentication();
             app.UseAuthorization();
+
+            app.UseSession();
 
             app.MapControllerRoute(
                 name: "default",

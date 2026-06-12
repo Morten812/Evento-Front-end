@@ -9,6 +9,7 @@ using System.ComponentModel.Design;
 using System.Diagnostics;
 using System.Net.Http;
 using System.Threading.Tasks;
+using System.Net.Http.Headers;
 
 
 namespace Evento_Front_end.Controllers
@@ -67,19 +68,19 @@ namespace Evento_Front_end.Controllers
             return View(vm);
         }
 
-        [Authorize]
+        [Authorize(Roles = "Admin")]
         public IActionResult Tools(string searchTerm)
         {
             return View();
         }
 
-        [Authorize]
+        [Authorize(Roles = "Admin")]
         public IActionResult Tasks(string searchTerm)
         {
             return View();
         }
 
-        [Authorize]
+        [Authorize(Roles = "Admin")]
         public IActionResult Privacy()
         {
             return View();
@@ -134,6 +135,16 @@ namespace Evento_Front_end.Controllers
 
         public async Task<IActionResult> Requests(int companyId)
         {
+            var token = HttpContext.Session.GetString("JWT");
+
+            if (!string.IsNullOrEmpty(token))
+            {
+                _httpClient.DefaultRequestHeaders.Authorization =
+                new AuthenticationHeaderValue("Bearer", token);
+            }
+
+            Console.WriteLine(token);
+
             var requests = await _httpClient
                 .GetFromJsonAsync<List<RequestDTO>>(
                 $"https://localhost:7251/api/requests/company/{companyId}/pending"

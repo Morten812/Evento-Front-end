@@ -102,3 +102,7 @@ a.button {
 .company-text{
     color: darkcyan
 }
+
+.access-denied{
+    color: red
+}

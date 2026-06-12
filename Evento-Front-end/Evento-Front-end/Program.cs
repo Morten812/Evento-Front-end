@@ -3,6 +3,7 @@ using Evento_Front_end.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Options;
+using Microsoft.AspNetCore.Authentication.Cookies;
 
 namespace Evento_Front_end
 {
@@ -24,6 +25,16 @@ namespace Evento_Front_end
             {
                 c.BaseAddress = new Uri("https://localhost:7251/");
             });
+
+            builder.Services
+                .AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+                .AddCookie(options =>
+                {
+                    options.LoginPath = "/Account/Login";
+                    options.AccessDeniedPath = "/Account/AccessDenied";
+                });
+
+            builder.Services.AddAuthorization();
 
             var app = builder.Build();
 

@@ -1,8 +1,12 @@
-﻿using Microsoft.AspNetCore.Identity;
-using Microsoft.AspNetCore.Mvc;
-using Evento_Front_end.ViewModels;
+﻿using Evento_Front_end.DTOs;
 using Evento_Front_end.Models;
-using Evento_Front_end.DTOs;
+using Evento_Front_end.ViewModels;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc;
+using System.Net.Http.Headers;
+using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authentication.Cookies;
+using System.Security.Claims;
 
 namespace Evento_Front_end.Controllers
 {
@@ -62,6 +66,21 @@ namespace Evento_Front_end.Controllers
 
             HttpContext.Session.SetString("JWT", tokenResponse.Token);
 
+            var claims = new List<Claim>
+            {
+                new Claim(ClaimTypes.Email, model.Email)
+            };
+
+            var identity = new ClaimsIdentity(
+                claims,
+                CookieAuthenticationDefaults.AuthenticationScheme);
+
+            var principal = new ClaimsPrincipal(identity);
+
+            await HttpContext.SignInAsync(
+                CookieAuthenticationDefaults.AuthenticationScheme,
+                principal);
+
             return RedirectToAction("Index", "Home");
         }
 
@@ -69,6 +88,11 @@ namespace Evento_Front_end.Controllers
         {
             HttpContext.Session.Remove("JWT");
             return RedirectToAction("Index", "Home");
+        }
+
+        public IActionResult AccessDenied()
+        {
+            return View();
         }
     }
 }

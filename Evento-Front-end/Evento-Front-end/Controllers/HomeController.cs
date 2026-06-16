@@ -10,6 +10,8 @@ using System.Diagnostics;
 using System.Net.Http;
 using System.Threading.Tasks;
 using System.Net.Http.Headers;
+using Microsoft.AspNetCore.Authentication;
+using System.IdentityModel.Tokens.Jwt;
 
 
 namespace Evento_Front_end.Controllers
@@ -46,10 +48,10 @@ namespace Evento_Front_end.Controllers
                 queryParams.Add($"searchTerm={searchTerm}");
 
             if (municipalities != null && municipalities.Any())
-                queryParams.AddRange(municipalities.Select(c => $"municipalities={c}"));
+                queryParams.AddRange(municipalities.Select(m => $"municipalities={m}"));
 
             if (services != null && services.Any())
-                queryParams.AddRange(services.Select(c => $"services={c}"));
+                queryParams.AddRange(services.Select(s => $"services={s}"));
 
             if (queryParams.Any())
                 url += "?" + string.Join("&", queryParams);
@@ -58,9 +60,34 @@ namespace Evento_Front_end.Controllers
                 .GetFromJsonAsync<List<CompanyDTO>>(url)
                 ?? new List<CompanyDTO>();
 
+            var allCompanies = await _httpClient
+                .GetFromJsonAsync<List<CompanyDTO>>(
+                "https://localhost:7251/api/companies")
+                ?? new List<CompanyDTO>();
+
+            var serviceTypes = await _httpClient
+                .GetFromJsonAsync<List<string>>(
+                "https://localhost:7251/api/companies/service-types")
+                ?? new List<string>();
+
             var vm = new ShowAllCompaniesVM
             {
                 Companies = companies,
+
+                Locations = allCompanies
+                .Where(c => !string.IsNullOrWhiteSpace(c.Region)
+                         && !string.IsNullOrWhiteSpace(c.Municipality))
+                .Select(c => new MunicipalityVM
+                {
+                    Region = c.Region,
+                    Municipality = c.Municipality
+                })
+                .DistinctBy(x => new {x.Region, x.Municipality})
+                .OrderBy(x => x.Region)
+                .ThenBy(x => x.Municipality)
+                .ToList(),
+
+                Types = serviceTypes,
                 SelectedMunicipalities = municipalities ?? new List<string>(),
                 SelectedServices = services ?? new List<string>()
             };
@@ -68,21 +95,51 @@ namespace Evento_Front_end.Controllers
             return View(vm);
         }
 
-        [Authorize(Roles = "Admin")]
+        public string? GetCurrentRole()
+        {
+            var token = HttpContext.Session.GetString("JWT");
+
+            if (string.IsNullOrWhiteSpace(token))
+                return null;
+
+            var handler = new JwtSecurityTokenHandler();
+            var jwt = handler.ReadJwtToken(token);
+
+            return jwt.Claims
+                .FirstOrDefault(c => c.Type == "role")
+                ?.Value;
+        }
+
         public IActionResult Tools(string searchTerm)
         {
+            var token = HttpContext.Session.GetString("JWT");
+
+            if (token == null)
+            {
+                return RedirectToAction("Login", "Account");
+            }
+
             return View();
         }
 
-        [Authorize(Roles = "Admin")]
         public IActionResult Tasks(string searchTerm)
         {
+
+            if (GetCurrentRole() != "Admin")
+                return RedirectToAction ("AccessDenied", "Account");
+
             return View();
         }
 
-        [Authorize(Roles = "Admin")]
         public IActionResult Privacy()
         {
+            var token = HttpContext.Session.GetString("JWT");
+
+            if (token == null)
+            {
+                return RedirectToAction("Login", "Account");
+            }
+
             return View();
         }
 

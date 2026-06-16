@@ -26,13 +26,13 @@
 
             <div class="dropdown-list">
 
-            @foreach (var region in Model.Companies
+            @foreach (var region in Model.Locations
                                         .Select(c => c.Region)
                                         .Distinct())
             {
                 <h4>@region</h4>
 
-                @foreach (var municipality in Model.Companies
+                @foreach (var municipality in Model.Locations
                                                     .Where(c => c.Region == region)
                                                     .Select(c => c.Municipality)
                                                     .Distinct())
@@ -40,7 +40,10 @@
                         <label>
                             <input type="checkbox"
                                 name="municipalities"
-                                value="@municipality" />
+                                value="@municipality" 
+                                @(Model.SelectedMunicipalities.Contains(municipality)
+                                ? "checked"
+                                : "") />
                             @municipality
                         </label>
 
@@ -50,25 +53,21 @@
                 <hr />
 
                 }
+            
+            @foreach (var type in Model.Types)
+            {
+                <label>
+                    <input type="checkbox" 
+                        name="services"
+                        value="@type"
+                        @(Model.SelectedServices.Contains(type)
+                        ? "checked"
+                        : "") />
+                        @type
+                </label>
+            }
 
-            <h4>Services</h4>
-            <label>
-                <input type="checkbox" name="services" value="Security"
-                    @(Model.SelectedServices.Contains("Security") ? "checked" : "") />
-                Security
-            </label>
-
-            <label>
-                <input type="checkbox" name="services" value="Cleaning"
-                    @(Model.SelectedServices.Contains("Cleaning") ? "checked" : "") />
-                Cleaning
-            </label>
-
-            <label>
-                <input type="checkbox" name="services" value="Transportation"
-                    @(Model.SelectedServices.Contains("Transportation") ? "checked" : "") />
-                Transportation
-            </label>
+            <br />
 
                 <button type="submit">Apply</button>
         </div>

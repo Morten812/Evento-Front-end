@@ -106,3 +106,7 @@ a.button {
 .access-denied{
     color: red
 }
+
+.access-restricted{
+    color: crimson
+}

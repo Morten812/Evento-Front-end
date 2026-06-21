@@ -61,15 +61,18 @@ namespace Evento_Front_end.Controllers
                 return View(model);
             }
 
+            var claims = new List<Claim>
+            {
+                new Claim(ClaimTypes.Email, model.Email),
+                new Claim(ClaimTypes.Name, model.Email),
+                new Claim(ClaimTypes.NameIdentifier, model.Email),
+                new Claim(ClaimTypes.Role, "Manager")
+            };
+
             var tokenResponse = await response.Content
                 .ReadFromJsonAsync<LoginResponseDTO>();
 
             HttpContext.Session.SetString("JWT", tokenResponse.Token);
-
-            var claims = new List<Claim>
-            {
-                new Claim(ClaimTypes.Email, model.Email)
-            };
 
             var identity = new ClaimsIdentity(
                 claims,
@@ -80,6 +83,9 @@ namespace Evento_Front_end.Controllers
             await HttpContext.SignInAsync(
                 CookieAuthenticationDefaults.AuthenticationScheme,
                 principal);
+
+            Console.WriteLine("LOGIN SUCCESS");
+            Console.WriteLine($"Authenticated: {User.Identity?.IsAuthenticated}");
 
             return RedirectToAction("Index", "Home");
         }

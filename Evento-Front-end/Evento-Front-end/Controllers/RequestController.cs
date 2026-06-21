@@ -38,7 +38,7 @@ namespace Evento_Front_end.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> UpdateRequestStatus(int requestId, RequestStatus status, int companyId)
+        public async Task<IActionResult> UpdateRequestStatus(int requestId, RequestStatus status, int companyId, int serviceId)
         {
             var response = await _httpClient.PutAsJsonAsync($"https://localhost:7251/api/requests/{requestId}/status",
                 new RequestDTO
@@ -50,6 +50,8 @@ namespace Evento_Front_end.Controllers
 
             var content = await response.Content.ReadAsStringAsync();
             Console.WriteLine(content);
+
+            Console.WriteLine($"CompanyId received: {companyId}");
 
             return RedirectToAction("Requests", "Home", new {companyId});
         }

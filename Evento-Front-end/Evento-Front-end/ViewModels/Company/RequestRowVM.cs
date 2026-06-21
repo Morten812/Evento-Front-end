@@ -6,6 +6,7 @@ namespace Evento_Front_end.ViewModels.Company
     {
         public int RequestID { get; set; }
         public int ServiceID { get; set; }
+        public int CompanyID { get; set; }
         public string Description { get; set; }
         public string Status { get; set; }
         public string ServiceName { get; set; }

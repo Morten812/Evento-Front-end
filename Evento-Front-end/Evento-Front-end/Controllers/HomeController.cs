@@ -33,6 +33,8 @@ namespace Evento_Front_end.Controllers
         {
             var result = await _httpClient.GetStringAsync("https://localhost:7251/api/hello");
             ViewBag.Message = result;
+
+            Console.WriteLine($"INDEX USER AUTH: {User.Identity?.IsAuthenticated}");
             
             return View();
         }
@@ -92,6 +94,13 @@ namespace Evento_Front_end.Controllers
                 SelectedServices = services ?? new List<string>()
             };
 
+            var role = GetCurrentRole();
+
+            /*
+            if (role != "Customer" && role != "Admin")
+                return RedirectToAction("AccessDenied", "Account");
+            */
+
             return View(vm);
         }
 
@@ -110,35 +119,55 @@ namespace Evento_Front_end.Controllers
                 ?.Value;
         }
 
+        public string? GetCurrentUser()
+        {
+            /*
+            var authHeader = Request.Headers["Authorization"]
+                .FirstOrDefault();
+
+            if (string.IsNullOrEmpty(authHeader))
+                return null;
+
+            var token = authHeader.Replace("Bearer ", "");
+
+            var handler = new JwtSecurityTokenHandler();
+            var jwt = handler.ReadJwtToken(token);
+
+            return jwt.Claims
+                .FirstOrDefault(c =>
+                c.Type == JwtRegisteredClaimNames.Sub)
+                ?.Value;
+            */
+
+            return User.FindFirst(JwtRegisteredClaimNames.Sub)?.Value;
+        }
+
         public IActionResult Tools(string searchTerm)
         {
-            var token = HttpContext.Session.GetString("JWT");
-
-            if (token == null)
-            {
-                return RedirectToAction("Login", "Account");
-            }
+            /*
+            if (GetCurrentRole() != "Admin")
+                return RedirectToAction("AccessDenied", "Account");
+            */
 
             return View();
         }
 
         public IActionResult Tasks(string searchTerm)
         {
-
+            /*
             if (GetCurrentRole() != "Admin")
                 return RedirectToAction ("AccessDenied", "Account");
+            */
 
             return View();
         }
 
         public IActionResult Privacy()
         {
-            var token = HttpContext.Session.GetString("JWT");
-
-            if (token == null)
-            {
-                return RedirectToAction("Login", "Account");
-            }
+            /*
+            if (GetCurrentRole() != "Admin")
+                return RedirectToAction("AccessDenied", "Account");
+            */
 
             return View();
         }
@@ -158,6 +187,13 @@ namespace Evento_Front_end.Controllers
                 Services = services ?? new List<ServiceDTO>(),
                 Customers = customers ?? new List<CustomerDTO>()
             };
+
+            var role = GetCurrentRole();
+
+            /*
+            if (role != "Customer" && role != "Admin")
+                return RedirectToAction("AccessDenied", "Account");
+            */
 
             return View(vm);
         }
@@ -192,32 +228,103 @@ namespace Evento_Front_end.Controllers
 
         public async Task<IActionResult> Requests(int companyId)
         {
+            /*
+            if (!string.IsNullOrEmpty(token))
+            {
+                _httpClient.DefaultRequestHeaders.Authorization =
+                new AuthenticationHeaderValue("Bearer", token);
+            }
+            */
+
+            /*
+            var requests = await _httpClient
+                .GetFromJsonAsync<List<RequestDTO>>(
+                $"https://localhost:7251/api/requests/my-company/pending"
+                ) ?? new();
+            */
+            
+            /*
+            var response = await _httpClient.GetAsync(
+                "https://localhost:7251/api/requests/my-company/pending");
+            
+
+            Console.WriteLine(response.StatusCode);
+
+            if (!response.IsSuccessStatusCode)
+            {
+                return Content($"Status: {response.StatusCode}");
+            }
+            */
+
+            /*
             var token = HttpContext.Session.GetString("JWT");
+
+            Console.WriteLine($"TOKEN: {token}");
 
             if (!string.IsNullOrEmpty(token))
             {
                 _httpClient.DefaultRequestHeaders.Authorization =
                 new AuthenticationHeaderValue("Bearer", token);
             }
+            */
 
-            Console.WriteLine(token);
+            /*
+            var request = new HttpRequestMessage(HttpMethod.Get,
+                "https://localhost:7251/api/requests/company/me/pending");
+            */
+
+            /*
+            request.Headers.Authorization =
+                new AuthenticationHeaderValue("Bearer", token);
+            */
+
+            /*
+            Console.WriteLine($"URL: {request.RequestUri}");
+            */
+
+            /*
+            var requests = await response.Content
+                .ReadFromJsonAsync<List<RequestDTO>>()
+                ?? new();
+            */
+
+            /*
+            var response = await _httpClient.SendAsync(request);
+            
+
+
+            Console.WriteLine($"STATUS: {response.StatusCode}");
+
+            if (!response.IsSuccessStatusCode)
+            {
+                var body = await response.Content.ReadAsStringAsync();
+
+                Console.WriteLine("RESPONSE BODY:");
+                Console.WriteLine(body);
+
+                return Content($"Status: {response.StatusCode}\n\n{body}");
+            }
+            */
 
             var requests = await _httpClient
                 .GetFromJsonAsync<List<RequestDTO>>(
-                $"https://localhost:7251/api/requests/company/{companyId}/pending"
-                ) ?? new();
-
+                $"https://localhost:7251/api/requests/company/{companyId}/pending")
+                ?? new();
+            
             var companies = await _httpClient
                 .GetFromJsonAsync<List<CompanyDTO>>(
                 "https://localhost:7251/api/companies"
                 ) ?? new();
+            
 
             var vm = new RequestsVM
             {
+
                 Companies = companies,
 
                 RequestRows = requests.Select(r => new RequestRowVM
                 {
+                    CompanyID = r.CompanyID,
                     RequestID = r.RequestID,
                     Description = r.Description,
                     Status = r.Status.ToString(),
@@ -228,6 +335,15 @@ namespace Evento_Front_end.Controllers
                 }).ToList()
             };
 
+            Console.WriteLine($"CompanyId in Requests(): {companyId}");
+
+            /*
+            var role = GetCurrentRole();
+
+            if (role != "Manager" && role != "Admin")
+                return RedirectToAction("AccessDenied", "Account");
+            */
+            
             return View(vm);
         }
 

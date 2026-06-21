@@ -110,3 +110,7 @@ a.button {
 .access-restricted{
     color: crimson
 }
+
+.request-page {
+    color: firebrick
+}

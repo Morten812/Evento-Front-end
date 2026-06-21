@@ -21,7 +21,7 @@ namespace Evento_Front_end
 
             builder.Services.AddSession();
 
-            builder.Services.AddHttpClient("ApiClient", c =>
+            builder.Services.AddHttpClient<ApiClient>(c =>
             {
                 c.BaseAddress = new Uri("https://localhost:7251/");
             });

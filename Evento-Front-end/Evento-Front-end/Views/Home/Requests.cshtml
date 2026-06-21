@@ -23,10 +23,10 @@
 </form>
 
 <div class="text-center">
-    <h1 class="display-4">Requests</h1>
+    <h1 class="display-4 request-page">Requests</h1>
 </div>
 
-@if (Model?.Requests != null)
+@if (Model?.RequestRows != null  /*&& Model.RequestRows.Any()*/)
 {
     <ul class="company-list">
         @foreach (var req in Model.RequestRows)
@@ -40,6 +40,7 @@
                 <strong>Created:</strong> @req.CreatedAt.ToString("dd/MM/yyyy HH:mm") <br />
                 <input type="hidden" name="requestId" value="@req.RequestID" />
                 <input type="hidden" name="serviceId" value="@req.ServiceID" />
+                <input type="hidden" name="companyId" value="@req.CompanyID" />
                     <button type="submit" name="status" value="Approved">Accept</button>
                     <button type="submit" name="status" value="Rejected">Decline</button>
                 

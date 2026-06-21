@@ -4,6 +4,25 @@
     ViewData["Title"] = "Jobs";
 }
 
+<form asp-controller="Home" asp-action="Requests" method="get">
+
+    <label>Select company</label>
+
+    <select name="companyId">
+        @foreach (var company in Model.Companies)
+        {
+            <option value="@company.CompanyID">
+                @company.Name
+            </option>
+        }
+    </select>
+
+    <button type="submit">
+        Show Requests
+    </button>
+
+</form>
+
 <div class="text-center">
     <h1 class="display-4">Accepted jobs</h1>
 </div>
